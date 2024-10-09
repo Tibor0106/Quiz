@@ -12,6 +12,8 @@ function QuizProvider({ children }) {
   const [gameState, setGameState] = useState(<LevelSelector />);
   const [usedQuestion, setUsedQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [answeredQuestions, setAnsweredQuestions] = useState(0);
+  const [solvedQuestions, setsolvedQuestions] = useState(0);
 
   const SelectQuestion = () => {
     var levelsQ = [];
@@ -76,8 +78,15 @@ function QuizProvider({ children }) {
   const HandleHelps = () => {};
 
   const selectAnswer = (ans) => {
+    if (answeredQuestions - 1 == 5) {
+      return setGameState(<>Nyertél</>);
+    }
+    setAnsweredQuestions(answeredQuestions + 1);
     if (!ans.isCorrect) WrongAnswer();
-    else SelectQuestion();
+    else {
+      setsolvedQuestions(solvedQuestions + 1);
+      SelectQuestion();
+    }
   };
 
   const HandleGameOver = () => {
@@ -100,6 +109,8 @@ function QuizProvider({ children }) {
           RandomizeAnswers,
           selectAnswer,
           AvailableHealths,
+          solvedQuestions,
+          answeredQuestions,
         }}>
         {children}
       </QuizContext.Provider>

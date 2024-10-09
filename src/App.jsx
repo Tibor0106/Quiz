@@ -7,6 +7,7 @@ function App() {
   const { gameState } = useContext(QuizContext);
   return (
     <>
+      <a href="https://github.com/Tibor0106/Quiz">Github repository</a>
       <div className="container">{gameState}</div>
     </>
   );

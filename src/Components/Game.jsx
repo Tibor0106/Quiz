@@ -8,6 +8,8 @@ function Game() {
     health,
     selectAnswer,
     AvailableHealths,
+    solvedQuestions,
+    answeredQuestions,
   } = useContext(QuizContext);
   useEffect(() => console.log(currentQuestion));
   const select = (item) => {
@@ -15,7 +17,12 @@ function Game() {
   };
   return (
     <>
-      {health} / {AvailableHealths}
+      <div>
+        Élet: {health} / {AvailableHealths}
+      </div>
+      <div> Megválaszolt kérdések: {answeredQuestions} / 5</div>
+      <div> Helyesen megoldott: {solvedQuestions}</div>
+
       <div>
         <p className="fs-4 text-success text-center">
           {currentQuestion.question}
