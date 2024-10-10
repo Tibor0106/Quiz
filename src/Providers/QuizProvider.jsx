@@ -143,8 +143,7 @@ function QuizProvider({ children }) {
     setHelps(i);
   };
   const selectAnswer = (ans) => {
-    console.log(answeredQuestions);
-    if (answeredQuestions == 5) {
+    if (answeredQuestions == answerAvailable) {
       return setGameState(<>Nyertél</>);
     }
     setAnsweredQuestions(answeredQuestions + 1);
