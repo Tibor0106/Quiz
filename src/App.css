@@ -1,7 +1,53 @@
 body {
-  background: #bbbbbb !important;
+  background-image: url("https://images.ctfassets.net/wt70guc1rpin/wp-media-54571/d4e7cee9fec8bf6b4c7d7fbaf46e5ebd/HEAD-HEAD-Your_One-Click_Guide_to_Online_Quiz_Design-_The_Easiest_Way_to_Catch_New_Leads-Hero_no_text_international-1200x630.png");
 }
 .container {
-  background: #fff;
+  margin-top: 10%;
+  background: #ffffffed;
   padding: 50px;
+  border-radius: 10px;
+  width: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: fit-content !important;
+}
+.buttons {
+  border: none;
+  padding: 10px;
+  background: #4300d4;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.answerGood,
+.answerWrong {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  margin: 0 10px 0 10px;
+  transition: all 0.3s;
+}
+
+.answerGood {
+  background-image: url("./Media/tick.png") !important;
+  background-origin: center;
+  background: #acffa4;
+  background-size: contain;
+}
+.answerWrong {
+  background-image: url("Media/icone-fermer-et-x-noir.png") !important;
+  background-origin: center;
+  background: #ffa4a4;
+  background-size: contain;
+}
+.display {
+  margin-bottom: -10vh !important;
+}
+.isWrong {
+  background-color: red !important;
+}
+.isGood {
+  background-color: #15ff00 !important;
 }

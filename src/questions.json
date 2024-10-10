@@ -2,1174 +2,2669 @@
   "difficulty_levels": [
     {
       "name": "Könnyű",
-      "level": 1
+      "level": 1,
+      "questions": 10
     },
     {
       "name": "Közepes",
-      "level": 2
+      "level": 2,
+      "questions": 10
     },
     {
       "name": "Nehéz",
-      "level": 3
+      "level": 3,
+      "questions": 15
     },
     {
       "name": "Extrém",
-      "level": 4
-    },
-    {
-      "name": "Lehetetlen",
-      "level": 5
+      "level": 4,
+      "questions": 20
     }
   ],
   "healthByLevels": {
-    "1": 4,
-    "2": 4,
-    "3": 3,
+    "1": 3,
+    "2": 3,
+    "3": 2,
     "4": 2,
     "5": 1
   },
-
   "questions": [
     {
-      "question": "Mi a programozási nyelv?",
+      "question": "Mikor szünt meg a Szovjetunió?",
       "level": 1,
       "options": [
         {
-          "option": "Egy eszköz, amivel számítógépes programokat írunk",
+          "option": "1991",
           "isCorrect": true
         },
         {
-          "option": "Egy fajta operációs rendszer",
+          "option": "1999",
           "isCorrect": false
         },
         {
-          "option": "Egy képszerkesztő program",
+          "option": "1981",
           "isCorrect": false
         },
         {
-          "option": "Egy hardver eszköz",
+          "option": "1812",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Melyik a következő közül programozási nyelv?",
+      "question": "Melyik képes a leggyorsabb adatátvitelre",
       "level": 1,
       "options": [
         {
-          "option": "Python",
+          "option": "M.2 NVme SDD",
           "isCorrect": true
         },
         {
-          "option": "Windows",
+          "option": "SSD",
           "isCorrect": false
         },
         {
-          "option": "Excel",
+          "option": "Floppy",
           "isCorrect": false
         },
         {
-          "option": "Photoshop",
+          "option": "CD",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a változó a programozásban?",
+      "question": "Ki találta fel a telefont?",
       "level": 1,
       "options": [
         {
-          "option": "Egy értéket tároló hely a memóriában",
+          "option": "Alexander Graham Bell",
           "isCorrect": true
         },
         {
-          "option": "Egy számítógépes játék",
+          "option": "William Thomas Green Morton",
           "isCorrect": false
         },
         {
-          "option": "Egy szövegszerkesztő program",
+          "option": "Alexander Fleming",
           "isCorrect": false
         },
         {
-          "option": "Egy hardver eszköz",
+          "option": "James Watt",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mit jelent az 'if' utasítás egy programozási nyelvben?",
+      "question": "Mikor jelent meg az első okos telefon?",
       "level": 1,
       "options": [
         {
-          "option": "Egy feltételvizsgálatot",
+          "option": "1994",
           "isCorrect": true
         },
         {
-          "option": "Egy ciklus indítását",
+          "option": "2001",
           "isCorrect": false
         },
         {
-          "option": "Egy változó létrehozását",
+          "option": "1992",
           "isCorrect": false
         },
         {
-          "option": "Egy program futtatását",
+          "option": "1989",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a PHP?",
+      "question": "Hány lapból áll a Magyarkártya?",
       "level": 1,
       "options": [
         {
-          "option": "Egy szerveroldali szkriptnyelv webfejlesztéshez",
+          "option": "32",
           "isCorrect": true
         },
         {
-          "option": "Egy adatbázis-kezelő rendszer",
+          "option": "35",
           "isCorrect": false
         },
         {
-          "option": "Egy asztali alkalmazásfejlesztő keretrendszer",
+          "option": "25",
           "isCorrect": false
         },
         {
-          "option": "Egy operációs rendszer",
+          "option": "30",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a HTML?",
+      "question": "Melyik személy található a húszezresen?",
       "level": 1,
       "options": [
         {
-          "option": "Egy jelölőnyelv weboldalak létrehozásához",
+          "option": "Deák Ferenc",
           "isCorrect": true
         },
         {
-          "option": "Egy programozási nyelv",
+          "option": "Rákóczi Ferenc",
           "isCorrect": false
         },
         {
-          "option": "Egy adatbázis-kezelő rendszer",
+          "option": "Mátyás Király",
           "isCorrect": false
         },
         {
-          "option": "Egy grafikai program",
+          "option": "Gróf Széchenyi István",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Melyik a következő közül NEM programozási nyelv?",
+      "question": "Melyik rövidítés felel meg a számítógép Memóriájának megnevezésére?",
       "level": 1,
       "options": [
         {
-          "option": "HTML",
+          "option": "RAM",
           "isCorrect": true
         },
         {
-          "option": "JavaScript",
+          "option": "ROM",
           "isCorrect": false
         },
         {
-          "option": "C++",
+          "option": "REM",
           "isCorrect": false
         },
         {
-          "option": "Python",
+          "option": "MEM",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Melyik a következő közül a legnépszerűbb programozási nyelv?",
+      "question": "Mikor jelent meg a Windows 10?",
       "level": 1,
       "options": [
         {
-          "option": "JavaScript",
+          "option": "2015",
           "isCorrect": true
         },
         {
-          "option": "Markdown",
+          "option": "2016",
           "isCorrect": false
         },
         {
-          "option": "HTML",
+          "option": "2014",
           "isCorrect": false
         },
         {
-          "option": "CSS",
+          "option": "2019",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Melyik programozási nyelv használható mobilalkalmazások fejlesztésére?",
+      "question": "Mikor fedezte fel Kolumbusz Kristóf Amerikát?",
       "level": 1,
       "options": [
         {
-          "option": "Java",
+          "option": "1492",
           "isCorrect": true
         },
         {
-          "option": "Excel",
+          "option": "1500",
           "isCorrect": false
         },
         {
-          "option": "Photoshop",
+          "option": "1453",
           "isCorrect": false
         },
         {
-          "option": "Word",
+          "option": "1600",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a funkció a programozásban?",
+      "question": "Melyik ország építette a híres 'Nagy Falat'?",
       "level": 1,
       "options": [
         {
-          "option": "Egy újrahasználható kódrészlet",
+          "option": "Kína",
           "isCorrect": true
         },
         {
-          "option": "Egy adatbázis",
+          "option": "Japán",
           "isCorrect": false
         },
         {
-          "option": "Egy operációs rendszer",
+          "option": "India",
           "isCorrect": false
         },
         {
-          "option": "Egy programozási nyelv",
+          "option": "Oroszország",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a debugging?",
+      "question": "Mi a Föld legnagyobb óceánja?",
       "level": 1,
       "options": [
         {
-          "option": "Hibakeresés a kódban",
+          "option": "Csendes-óceán",
           "isCorrect": true
         },
         {
-          "option": "Program írása",
+          "option": "Atlanti-óceán",
           "isCorrect": false
         },
         {
-          "option": "Weboldal készítése",
+          "option": "Indiai-óceán",
           "isCorrect": false
         },
         {
-          "option": "Adatbázis kezelése",
+          "option": "Jeges-tenger",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "JavaScript nyelvben melyik változó éréke NEM modosítható?",
+      "question": "Melyik ország fővárosa Párizs?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Franciaország",
+          "isCorrect": true
+        },
+        {
+          "option": "Olaszország",
+          "isCorrect": false
+        },
+        {
+          "option": "Spanyolország",
+          "isCorrect": false
+        },
+        {
+          "option": "Németország",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik bolygó a Naprendszer legnagyobb bolygója?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Jupiter",
+          "isCorrect": true
+        },
+        {
+          "option": "Föld",
+          "isCorrect": false
+        },
+        {
+          "option": "Vénusz",
+          "isCorrect": false
+        },
+        {
+          "option": "Mars",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a 'Tüskevár' című könyvet?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Fekete István",
+          "isCorrect": true
+        },
+        {
+          "option": "Móricz Zsigmond",
+          "isCorrect": false
+        },
+        {
+          "option": "Jókai Mór",
+          "isCorrect": false
+        },
+        {
+          "option": "Mikszáth Kálmán",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben landolt először ember a Holdon?",
+      "level": 1,
+      "options": [
+        {
+          "option": "1969",
+          "isCorrect": true
+        },
+        {
+          "option": "1959",
+          "isCorrect": false
+        },
+        {
+          "option": "1975",
+          "isCorrect": false
+        },
+        {
+          "option": "1980",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik országban található a Machu Picchu?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Peru",
+          "isCorrect": true
+        },
+        {
+          "option": "Brazília",
+          "isCorrect": false
+        },
+        {
+          "option": "Kolumbia",
+          "isCorrect": false
+        },
+        {
+          "option": "Argentína",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a fővárosa Magyarországnak?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Budapest",
+          "isCorrect": true
+        },
+        {
+          "option": "Debrecen",
+          "isCorrect": false
+        },
+        {
+          "option": "Szeged",
+          "isCorrect": false
+        },
+        {
+          "option": "Pécs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a leghosszabb folyó a világon?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Amazonas",
+          "isCorrect": true
+        },
+        {
+          "option": "Nílus",
+          "isCorrect": false
+        },
+        {
+          "option": "Duna",
+          "isCorrect": false
+        },
+        {
+          "option": "Mississippi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik vitamin segíti a kalcium felszívódását?",
+      "level": 1,
+      "options": [
+        {
+          "option": "D-vitamin",
+          "isCorrect": true
+        },
+        {
+          "option": "C-vitamin",
+          "isCorrect": false
+        },
+        {
+          "option": "B12-vitamin",
+          "isCorrect": false
+        },
+        {
+          "option": "A-vitamin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen színű a Napfény az űrből nézve?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Fehér",
+          "isCorrect": true
+        },
+        {
+          "option": "Sárga",
+          "isCorrect": false
+        },
+        {
+          "option": "Piros",
+          "isCorrect": false
+        },
+        {
+          "option": "Kék",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legnagyobb szárazföldi állat?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Afrikai elefánt",
+          "isCorrect": true
+        },
+        {
+          "option": "Zsiráf",
+          "isCorrect": false
+        },
+        {
+          "option": "Oroszlán",
+          "isCorrect": false
+        },
+        {
+          "option": "Jegesmedve",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik bolygón található az Olympus Mons nevű vulkán?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Mars",
+          "isCorrect": true
+        },
+        {
+          "option": "Jupiter",
+          "isCorrect": false
+        },
+        {
+          "option": "Vénusz",
+          "isCorrect": false
+        },
+        {
+          "option": "Föld",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ország található az Andok hegységben?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Chile",
+          "isCorrect": true
+        },
+        {
+          "option": "Brazília",
+          "isCorrect": false
+        },
+        {
+          "option": "Mexikó",
+          "isCorrect": false
+        },
+        {
+          "option": "Spanyolország",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kémiai elem szimbóluma az O?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Oxigén",
+          "isCorrect": true
+        },
+        {
+          "option": "Hidrogén",
+          "isCorrect": false
+        },
+        {
+          "option": "Kén",
+          "isCorrect": false
+        },
+        {
+          "option": "Nátrium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik népszerű közösségi oldalt alapította Mark Zuckerberg?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Facebook",
+          "isCorrect": true
+        },
+        {
+          "option": "Instagram",
+          "isCorrect": false
+        },
+        {
+          "option": "Twitter",
+          "isCorrect": false
+        },
+        {
+          "option": "Snapchat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legnagyobb szerv az emberi testben?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Bőr",
+          "isCorrect": true
+        },
+        {
+          "option": "Szív",
+          "isCorrect": false
+        },
+        {
+          "option": "Máj",
+          "isCorrect": false
+        },
+        {
+          "option": "Tüdő",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik állat híres arról, hogy rendkívül lassan mozog?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Lajhár",
+          "isCorrect": true
+        },
+        {
+          "option": "Gepárd",
+          "isCorrect": false
+        },
+        {
+          "option": "Elefánt",
+          "isCorrect": false
+        },
+        {
+          "option": "Teknős",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kontinens területén található Ausztrália?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Ausztrália",
+          "isCorrect": true
+        },
+        {
+          "option": "Ázsia",
+          "isCorrect": false
+        },
+        {
+          "option": "Európa",
+          "isCorrect": false
+        },
+        {
+          "option": "Dél-Amerika",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a világ legmagasabb épülete 2024-ben?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Burj Khalifa",
+          "isCorrect": true
+        },
+        {
+          "option": "Shanghai Tower",
+          "isCorrect": false
+        },
+        {
+          "option": "Eiffel-torony",
+          "isCorrect": false
+        },
+        {
+          "option": "Empire State Building",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen típusú állat a koala?",
+      "level": 1,
+      "options": [
+        {
+          "option": "Emlős",
+          "isCorrect": true
+        },
+        {
+          "option": "Hüllő",
+          "isCorrect": false
+        },
+        {
+          "option": "Madár",
+          "isCorrect": false
+        },
+        {
+          "option": "Kétéltű",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kontinensen található a Szahara sivatag?",
       "level": 2,
       "options": [
         {
-          "option": "var",
-          "isCorrect": false
-        },
-        {
-          "option": "let",
-          "isCorrect": false
-        },
-        {
-          "option": "const",
+          "option": "Afrika",
           "isCorrect": true
         },
         {
-          "option": "Egyik sem",
+          "option": "Ázsia",
+          "isCorrect": false
+        },
+        {
+          "option": "Dél-Amerika",
+          "isCorrect": false
+        },
+        {
+          "option": "Ausztrália",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a Linux?",
+      "question": "Ki volt a Római Birodalom első császára?",
       "level": 2,
       "options": [
         {
-          "option": "Egy nyílt forráskódú operációs rendszer",
+          "option": "Augustus",
           "isCorrect": true
         },
         {
-          "option": "Egy programozási nyelv",
+          "option": "Julius Caesar",
           "isCorrect": false
         },
         {
-          "option": "Egy játékfejlesztő keretrendszer",
+          "option": "Nero",
           "isCorrect": false
         },
         {
-          "option": "Egy weboldal készítő eszköz",
+          "option": "Caligula",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mit takar az 'API' rövidítés?",
+      "question": "Melyik évben érte el az ember először a Hold felszínét?",
       "level": 2,
       "options": [
         {
-          "option": "Application Programming Interface",
+          "option": "1969",
           "isCorrect": true
         },
         {
-          "option": "Advanced Programming Integration",
+          "option": "1972",
           "isCorrect": false
         },
         {
-          "option": "Automated Process Interaction",
+          "option": "1965",
           "isCorrect": false
         },
         {
-          "option": "Applied Protocol Instructions",
+          "option": "1959",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mit takar az IDE rövidítés?",
+      "question": "Melyik a leghidegebb bolygó a Naprendszerben?",
       "level": 2,
       "options": [
         {
-          "option": "Integrated Development Environment",
+          "option": "Neptunusz",
           "isCorrect": true
         },
         {
-          "option": "Intelligent Data Editor",
+          "option": "Jupiter",
           "isCorrect": false
         },
         {
-          "option": "Interconnected Device Emulator",
+          "option": "Uránusz",
           "isCorrect": false
         },
         {
-          "option": "Independent Development Engine",
+          "option": "Mars",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "C# file kiterjesztése?",
+      "question": "Melyik óceán a legmélyebb a világon?",
       "level": 2,
       "options": [
         {
-          "option": ".cs",
+          "option": "Csendes-óceán",
           "isCorrect": true
         },
         {
-          "option": ".csharp",
+          "option": "Atlanti-óceán",
           "isCorrect": false
         },
         {
-          "option": ".chastag",
+          "option": "Indiai-óceán",
           "isCorrect": false
         },
         {
-          "option": ".ccs",
+          "option": "Jeges-tenger",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Melyik NEM adatbázis?",
+      "question": "Melyik ország a legnagyobb területű a világon?",
       "level": 2,
       "options": [
         {
-          "option": "XDB",
+          "option": "Oroszország",
           "isCorrect": true
         },
         {
-          "option": "Mysql",
+          "option": "Kína",
           "isCorrect": false
         },
         {
-          "option": "MongoDB",
+          "option": "Kanada",
           "isCorrect": false
         },
         {
-          "option": "SQLite",
+          "option": "USA",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a CSS?",
+      "question": "Melyik görög isten volt a tenger istene?",
       "level": 2,
       "options": [
         {
-          "option": "Cascading Style Sheets",
+          "option": "Poszeidón",
           "isCorrect": true
         },
         {
-          "option": "Creative Software System",
+          "option": "Zeusz",
           "isCorrect": false
         },
         {
-          "option": "Common Syntax Styles",
+          "option": "Hádész",
           "isCorrect": false
         },
         {
-          "option": "Complex Style Settings",
+          "option": "Apolló",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Melyik programozási nyelv NEM típusos?",
+      "question": "Melyik filmben szerepel az ikonikus mondat: 'Hasta la vista, baby!'?",
       "level": 2,
       "options": [
         {
-          "option": "JavaScript",
+          "option": "Terminátor 2: Az ítélet napja",
           "isCorrect": true
         },
         {
-          "option": "Java",
+          "option": "Terminátor",
           "isCorrect": false
         },
         {
-          "option": "C#",
+          "option": "Rambo",
           "isCorrect": false
         },
         {
-          "option": "C++",
+          "option": "Die Hard",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mit jelent a 'git' a programozásban?",
+      "question": "Melyik elem vegyjele az 'Au'?",
       "level": 2,
       "options": [
         {
-          "option": "Egy verziókezelő rendszer",
+          "option": "Arany",
           "isCorrect": true
         },
         {
-          "option": "Egy programozási nyelv",
+          "option": "Ezüst",
           "isCorrect": false
         },
         {
-          "option": "Egy weboldal keretrendszer",
+          "option": "Alumínium",
           "isCorrect": false
         },
         {
-          "option": "Egy grafikai szoftver",
+          "option": "Vas",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a legelterjedtebb adatbázis-kezelő rendszer?",
+      "question": "Ki írta a 'Büszkeség és balítélet' című regényt?",
       "level": 2,
       "options": [
         {
-          "option": "MySQL",
+          "option": "Jane Austen",
           "isCorrect": true
         },
         {
-          "option": "Notepad",
+          "option": "Charles Dickens",
           "isCorrect": false
         },
         {
-          "option": "PowerPoint",
+          "option": "Emily Brontë",
           "isCorrect": false
         },
         {
-          "option": "Photoshop",
+          "option": "George Eliot",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a C++ file kiterjesztése?",
+      "question": "Hány napig tart egy év a Földön?",
       "level": 2,
       "options": [
         {
-          "option": ".cpp",
+          "option": "365",
           "isCorrect": true
         },
         {
-          "option": ".cxx",
+          "option": "360",
           "isCorrect": false
         },
         {
-          "option": ".cc",
+          "option": "366",
           "isCorrect": false
         },
         {
-          "option": ".cplus",
+          "option": "364",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mit jelent a 'syntax' a programozásban?",
+      "question": "Melyik háború során zajlott a normandiai partraszállás?",
       "level": 2,
       "options": [
         {
-          "option": "A programozási nyelv szabályai",
+          "option": "II. világháború",
           "isCorrect": true
         },
         {
-          "option": "A program futtatásának folyamata",
+          "option": "I. világháború",
           "isCorrect": false
         },
         {
-          "option": "A programok tárolási módja",
+          "option": "Koreai háború",
           "isCorrect": false
         },
         {
-          "option": "A kód végrehajtásának sebessége",
+          "option": "Vietnam háború",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a funkcionális programozás és milyen előnyei vannak?",
-      "level": 5,
+      "question": "Melyik kémiai elem szimbóluma a 'Fe'?",
+      "level": 2,
       "options": [
         {
-          "option": "Olyan programozási paradigmát jelent, amely az adatok átalakítására összpontosít, elősegítve a hibák minimalizálását.",
+          "option": "Vas",
           "isCorrect": true
         },
         {
-          "option": "Olyan programozási paradigmát jelent, amely a program állapotának kezelésére összpontosít.",
+          "option": "Réz",
           "isCorrect": false
         },
         {
-          "option": "Olyan programozási paradigmát jelent, amely kizárólag objektum-orientált nyelveket használ.",
+          "option": "Cink",
           "isCorrect": false
         },
         {
-          "option": "Olyan programozási stílust jelent, amely a nyelv szintaktikáján alapul.",
+          "option": "Fluor",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a célja az 'agile' szoftverfejlesztési módszertanoknak?",
-      "level": 5,
+      "question": "Ki komponálta a Für Elise című zeneművet?",
+      "level": 2,
       "options": [
         {
-          "option": "Rugalmasan reagálni a változásokra és folyamatosan szállítani a működő szoftvert.",
+          "option": "Ludwig van Beethoven",
           "isCorrect": true
         },
         {
-          "option": "Csökkenteni a csapat méretét.",
+          "option": "Wolfgang Amadeus Mozart",
           "isCorrect": false
         },
         {
-          "option": "Minden projektet vízesés módszerrel kezelni.",
+          "option": "Johann Sebastian Bach",
           "isCorrect": false
         },
         {
-          "option": "Az összes követelményt előre meghatározni.",
+          "option": "Franz Schubert",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a 'code review' és miért fontos?",
-      "level": 5,
+      "question": "Melyik állat a legnagyobb ragadozó a szárazföldön?",
+      "level": 2,
       "options": [
         {
-          "option": "Egy folyamat, amely során a fejlesztők átnézik egymás kódját a hibák észlelésére és a kódminőség javítására.",
+          "option": "Jegesmedve",
           "isCorrect": true
         },
         {
-          "option": "Olyan automatizált tesztelési eljárás, amely a kód minőségét méri.",
+          "option": "Oroszlán",
           "isCorrect": false
         },
         {
-          "option": "A kód optimalizálása a teljesítmény érdekében.",
+          "option": "Tigris",
           "isCorrect": false
         },
         {
-          "option": "Egy nyelv, amely a szoftverek tervezésére szolgál.",
+          "option": "Farkas",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a 'design pattern' és mikor érdemes alkalmazni?",
-      "level": 5,
+      "question": "Melyik festő alkotta meg a 'Mona Lisát'?",
+      "level": 2,
       "options": [
         {
-          "option": "Általános megoldások a szoftverfejlesztésben, amelyeket újrahasznosíthatunk hasonló problémák esetén.",
+          "option": "Leonardo da Vinci",
           "isCorrect": true
         },
         {
-          "option": "Speciális algoritmusok a programok gyorsítására.",
+          "option": "Pablo Picasso",
           "isCorrect": false
         },
         {
-          "option": "Nyelvek közötti átkonvertálásra szolgáló eszközök.",
+          "option": "Vincent van Gogh",
           "isCorrect": false
         },
         {
-          "option": "Adatbázisok optimalizálására szolgáló technikák.",
+          "option": "Michelangelo",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a 'DevOps' és hogyan segíti a szoftverfejlesztést?",
-      "level": 5,
+      "question": "Hány fő szereplője van a 'Jóbarátok' című sorozatnak?",
+      "level": 2,
       "options": [
         {
-          "option": "Olyan megközelítés, amely egyesíti a fejlesztést és az üzemeltetést, lehetővé téve a gyorsabb szállítást és a folyamatos integrációt.",
+          "option": "6",
           "isCorrect": true
         },
         {
-          "option": "Olyan nyelv, amelyet a DevOps folyamatok automatizálására használnak.",
+          "option": "4",
           "isCorrect": false
         },
         {
-          "option": "Olyan adatbázis-kezelő rendszer, amely gyorsan végrehajtja a lekérdezéseket.",
+          "option": "5",
           "isCorrect": false
         },
         {
-          "option": "Egy programozási stílus, amely az objektum-orientált megközelítést hangsúlyozza.",
+          "option": "7",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a 'containerization' és hogyan működik?",
-      "level": 5,
+      "question": "Melyik ország fővárosa Párizs?",
+      "level": 2,
       "options": [
         {
-          "option": "Olyan technológia, amely lehetővé teszi az alkalmazások és azok függőségeinek elkülönített környezetben történő futtatását.",
+          "option": "Franciaország",
           "isCorrect": true
         },
         {
-          "option": "Olyan programozási nyelv, amely a felhőalapú szolgáltatásokat segíti.",
+          "option": "Belgium",
           "isCorrect": false
         },
         {
-          "option": "Olyan adatbázis-kezelő rendszer, amely optimalizálja a lekérdezések végrehajtását.",
+          "option": "Olaszország",
           "isCorrect": false
         },
         {
-          "option": "Egy módszer a programok tesztelésére.",
+          "option": "Spanyolország",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a 'load balancing' és miért fontos?",
-      "level": 5,
+      "question": "Milyen sportágban szerzett Michael Phelps olimpiai aranyérmeket?",
+      "level": 2,
       "options": [
         {
-          "option": "Olyan technika, amely elosztja a forgalmat több szerver között a teljesítmény optimalizálása érdekében.",
+          "option": "Úszás",
           "isCorrect": true
         },
         {
-          "option": "Olyan módszer, amely biztosítja a programok helyes működését.",
+          "option": "Atlétika",
           "isCorrect": false
         },
         {
-          "option": "Olyan algoritmus, amely a kód futásidejét csökkenti.",
+          "option": "Tenisz",
           "isCorrect": false
         },
         {
-          "option": "Olyan eljárás, amely minimalizálja a hibák számát.",
+          "option": "Tornászat",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a 'microservices' architektúra előnye?",
-      "level": 5,
+      "question": "Ki volt Nagy Sándor (Alexandrosz) történelmi alak?",
+      "level": 2,
       "options": [
         {
-          "option": "Lehetővé teszi a kis, független szolgáltatások fejlesztését és üzemeltetését, ami gyorsabb fejlesztést eredményez.",
+          "option": "Makedón király",
           "isCorrect": true
         },
         {
-          "option": "Monolitikus alkalmazásokhoz hasonlóan működik.",
+          "option": "Római császár",
           "isCorrect": false
         },
         {
-          "option": "Csökkenti a kód méretét.",
+          "option": "Egyiptomi fáraó",
           "isCorrect": false
         },
         {
-          "option": "Minden szolgáltatás egy központi adatbázist használ.",
+          "option": "Spártai hadvezér",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a 'serverless' architektúra?",
-      "level": 5,
+      "question": "Hány játékos van egy futballcsapatban a pályán?",
+      "level": 2,
       "options": [
         {
-          "option": "Olyan megközelítés, ahol a fejlesztők az alkalmazás logikájára összpontosítanak, anélkül, hogy az infrastruktúra kezelése miatt aggódnának.",
+          "option": "11",
           "isCorrect": true
         },
         {
-          "option": "Olyan architektúra, amely mindig megköveteli a szerverek üzemeltetését.",
+          "option": "10",
           "isCorrect": false
         },
         {
-          "option": "Olyan megoldás, amely a hagyományos szerverek használatát helyettesíti.",
+          "option": "12",
           "isCorrect": false
         },
         {
-          "option": "Olyan architektúra, amely lehetővé teszi a programok offline futtatását.",
+          "option": "9",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a célja a 'continuous integration' (CI) és a 'continuous delivery' (CD) folyamatoknak?",
-      "level": 5,
+      "question": "Melyik kontinens lakói használnak leggyakrabban pálcikákat az étkezéshez?",
+      "level": 2,
       "options": [
         {
-          "option": "Automatizálni a kód integrációját és a telepítési folyamatokat, hogy gyorsabb és megbízhatóbb szállítást biztosítsanak.",
+          "option": "Ázsia",
           "isCorrect": true
         },
         {
-          "option": "Csökkenteni a program méretét.",
+          "option": "Európa",
           "isCorrect": false
         },
         {
-          "option": "Csökkenteni a kód hibáinak számát.",
+          "option": "Afrika",
           "isCorrect": false
         },
         {
-          "option": "Kizárólag manuális telepítési folyamatokat támogatni.",
+          "option": "Dél-Amerika",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a különbség a statikus és dinamikus típusosság között?",
+      "question": "Mi a hivatalos nyelv Brazíliában?",
+      "level": 2,
+      "options": [
+        {
+          "option": "Portugál",
+          "isCorrect": true
+        },
+        {
+          "option": "Spanyol",
+          "isCorrect": false
+        },
+        {
+          "option": "Francia",
+          "isCorrect": false
+        },
+        {
+          "option": "Angol",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a 'Háború és béke' című könyvet?",
+      "level": 2,
+      "options": [
+        {
+          "option": "Lev Tolsztoj",
+          "isCorrect": true
+        },
+        {
+          "option": "Fjodor Dosztojevszkij",
+          "isCorrect": false
+        },
+        {
+          "option": "Charles Dickens",
+          "isCorrect": false
+        },
+        {
+          "option": "Victor Hugo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen típusú energiaforrás a szél?",
+      "level": 2,
+      "options": [
+        {
+          "option": "Megújuló",
+          "isCorrect": true
+        },
+        {
+          "option": "Nem megújuló",
+          "isCorrect": false
+        },
+        {
+          "option": "Fosszilis",
+          "isCorrect": false
+        },
+        {
+          "option": "Kimeríthetetlen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a világhírű fizikus, aki kidolgozta a relativitáselméletet?",
+      "level": 2,
+      "options": [
+        {
+          "option": "Albert Einstein",
+          "isCorrect": true
+        },
+        {
+          "option": "Isaac Newton",
+          "isCorrect": false
+        },
+        {
+          "option": "Galileo Galilei",
+          "isCorrect": false
+        },
+        {
+          "option": "Nikola Tesla",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hány lábujja van egy átlagos embernek?",
+      "level": 2,
+      "options": [
+        {
+          "option": "10",
+          "isCorrect": true
+        },
+        {
+          "option": "8",
+          "isCorrect": false
+        },
+        {
+          "option": "12",
+          "isCorrect": false
+        },
+        {
+          "option": "9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik bolygó van a legközelebb a Naphoz?",
+      "level": 2,
+      "options": [
+        {
+          "option": "Merkúr",
+          "isCorrect": true
+        },
+        {
+          "option": "Vénusz",
+          "isCorrect": false
+        },
+        {
+          "option": "Föld",
+          "isCorrect": false
+        },
+        {
+          "option": "Mars",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen színnel jelölik a legmelegebb csillagokat?",
+      "level": 2,
+      "options": [
+        {
+          "option": "Kék",
+          "isCorrect": true
+        },
+        {
+          "option": "Sárga",
+          "isCorrect": false
+        },
+        {
+          "option": "Vörös",
+          "isCorrect": false
+        },
+        {
+          "option": "Fehér",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik fém vezeti a legjobban az áramot?",
+      "level": 2,
+      "options": [
+        {
+          "option": "Ezüst",
+          "isCorrect": true
+        },
+        {
+          "option": "Arany",
+          "isCorrect": false
+        },
+        {
+          "option": "Réz",
+          "isCorrect": false
+        },
+        {
+          "option": "Vas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kémiai elemnek van a legnagyobb atommagja?",
       "level": 3,
       "options": [
         {
-          "option": "A statikus típusosságot a fordító ellenőrzi, míg a dinamikust a futási idő.",
+          "option": "Uránium",
           "isCorrect": true
         },
         {
-          "option": "A dinamikus típusosságot a fordító ellenőrzi, míg a statikus típust a futási idő.",
+          "option": "Plutónium",
           "isCorrect": false
         },
         {
-          "option": "Nincs különbség.",
+          "option": "Higany",
           "isCorrect": false
         },
         {
-          "option": "A statikus típusosság nem létezik.",
+          "option": "Ólom",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Milyen típusú programozási nyelv a Python?",
+      "question": "Melyik híres matematikus alapította a valószínűség-számítást?",
       "level": 3,
       "options": [
         {
-          "option": "Magas szintű, dinamikusan típusos.",
+          "option": "Blaise Pascal",
           "isCorrect": true
         },
         {
-          "option": "Alacsony szintű, statikusan típusos.",
+          "option": "Isaac Newton",
           "isCorrect": false
         },
         {
-          "option": "Funkcionális nyelv.",
+          "option": "René Descartes",
           "isCorrect": false
         },
         {
-          "option": "Deklaratív nyelv.",
+          "option": "Leonhard Euler",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mik azok a lambda kifejezések?",
+      "question": "Melyik a világ legnagyobb sós vizű tava?",
       "level": 3,
       "options": [
         {
-          "option": "Kis névtelen funkciók, amelyeket inline definiálunk.",
+          "option": "Kaszpi-tenger",
           "isCorrect": true
         },
         {
-          "option": "Egy speciális adattípus.",
+          "option": "Balaton",
           "isCorrect": false
         },
         {
-          "option": "Adatbázisok lekérdezésére szolgáló nyelv.",
+          "option": "Holt-tenger",
           "isCorrect": false
         },
         {
-          "option": "Programozási nyelv verziószáma.",
+          "option": "Aral-tó",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a multithreading?",
+      "question": "Ki írta a „Don Quijote” című regényt?",
       "level": 3,
       "options": [
         {
-          "option": "Több szál párhuzamos futtatása egy programon belül.",
+          "option": "Miguel de Cervantes",
           "isCorrect": true
         },
         {
-          "option": "Egy program több processz által történő futtatása.",
+          "option": "Gabriel García Márquez",
           "isCorrect": false
         },
         {
-          "option": "Különböző programok egyidejű futtatása.",
+          "option": "Jorge Luis Borges",
           "isCorrect": false
         },
         {
-          "option": "Adatok párhuzamos feldolgozása.",
+          "option": "Mario Vargas Llosa",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mit jelent a 'garbage collection' a programozásban?",
+      "question": "Melyik birodalom alapítója volt Dzsingisz kán?",
       "level": 3,
       "options": [
         {
-          "option": "Automatikus memória kezelés és felszabadítás.",
+          "option": "Mongol Birodalom",
           "isCorrect": true
         },
         {
-          "option": "Hibakeresés folyamat.",
+          "option": "Oszmán Birodalom",
           "isCorrect": false
         },
         {
-          "option": "Program kód optimalizálás.",
+          "option": "Perzsa Birodalom",
           "isCorrect": false
         },
         {
-          "option": "Kód átalakítása másik nyelvre.",
+          "option": "Bizánci Birodalom",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a REST API?",
+      "question": "Melyik ország ad otthont a Machu Picchunak?",
       "level": 3,
       "options": [
         {
-          "option": "Egy architektúra, amely HTTP protokollt használ a webszolgáltatások kommunikációjához.",
+          "option": "Peru",
           "isCorrect": true
         },
         {
-          "option": "Egy programozási nyelv.",
+          "option": "Chile",
           "isCorrect": false
         },
         {
-          "option": "Egy adatbázis-kezelő rendszer.",
+          "option": "Brazília",
           "isCorrect": false
         },
         {
-          "option": "Egy grafikai program.",
+          "option": "Argentína",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az az ORM (Object-Relational Mapping)?",
+      "question": "Mi a színképzési hiba másik neve az optikában?",
       "level": 3,
       "options": [
         {
-          "option": "Olyan technika, amely lehetővé teszi az objektumok és az adatbázisok közötti kapcsolat kezelését.",
+          "option": "Kromatikus aberráció",
           "isCorrect": true
         },
         {
-          "option": "Weboldalak fejlesztésére szolgáló nyelv.",
+          "option": "Szférikus aberráció",
           "isCorrect": false
         },
         {
-          "option": "Funkcionális programozási elv.",
+          "option": "Asztigmatizmus",
           "isCorrect": false
         },
         {
-          "option": "Adatbázisok lekérdezésének eszköze.",
+          "option": "Diszperzió",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a Docker?",
+      "question": "Hány kromoszómája van egy emberi sejtnek?",
       "level": 3,
       "options": [
         {
-          "option": "Egy konténerizációs platform.",
+          "option": "46",
           "isCorrect": true
         },
         {
-          "option": "Egy programozási nyelv.",
+          "option": "23",
           "isCorrect": false
         },
         {
-          "option": "Egy adatbázis-kezelő rendszer.",
+          "option": "44",
           "isCorrect": false
         },
         {
-          "option": "Egy operációs rendszer.",
+          "option": "48",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mik azok a JSON fájlok?",
+      "question": "Ki alkotta meg a relativitáselméletet?",
       "level": 3,
       "options": [
         {
-          "option": "Egy adatformátum, amely ember által olvasható és gép által könnyen feldolgozható.",
+          "option": "Albert Einstein",
           "isCorrect": true
         },
         {
-          "option": "Egy fájlformátum, amely kizárólag képek tárolására szolgál.",
+          "option": "Niels Bohr",
           "isCorrect": false
         },
         {
-          "option": "Egy programozási nyelv kiterjesztése.",
+          "option": "Max Planck",
           "isCorrect": false
         },
         {
-          "option": "Egy adatbázis-kezelő rendszer kiterjesztése.",
+          "option": "Galileo Galilei",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a jelentősége a verziókezelő rendszereknek?",
+      "question": "Melyik város található a híres 'Colosseum' amfiteátruma?",
       "level": 3,
       "options": [
         {
-          "option": "Lehetővé teszik a kód módosításainak nyomon követését és visszaállítását.",
+          "option": "Róma",
           "isCorrect": true
         },
         {
-          "option": "Segítenek a programozási nyelvek tanulmányozásában.",
+          "option": "Athén",
           "isCorrect": false
         },
         {
-          "option": "Optimalizálják a program futásidejét.",
+          "option": "Párizs",
           "isCorrect": false
         },
         {
-          "option": "Csökkentik a program hibáinak számát.",
+          "option": "Barcelona",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a fő célja a CI/CD folyamatoknak?",
+      "question": "Melyik évben történt a Watergate-botrány?",
       "level": 3,
       "options": [
         {
-          "option": "Automatizálni a szoftver fejlesztés, tesztelés és telepítés folyamatát.",
+          "option": "1972",
           "isCorrect": true
         },
         {
-          "option": "Csökkenteni a program méretét.",
+          "option": "1969",
           "isCorrect": false
         },
         {
-          "option": "Egy új programozási nyelv kifejlesztése.",
+          "option": "1975",
           "isCorrect": false
         },
         {
-          "option": "Adatbázisok optimalizálása.",
+          "option": "1970",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a különbség az osztály és az objektum között a programozásban?",
+      "question": "Ki komponálta a 'Nessun Dorma' áriát?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Giacomo Puccini",
+          "isCorrect": true
+        },
+        {
+          "option": "Giuseppe Verdi",
+          "isCorrect": false
+        },
+        {
+          "option": "Ludwig van Beethoven",
+          "isCorrect": false
+        },
+        {
+          "option": "Johann Sebastian Bach",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik állat volt a főszereplő A. A. Milne híres meséjében?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Micimackó",
+          "isCorrect": true
+        },
+        {
+          "option": "Süsü, a sárkány",
+          "isCorrect": false
+        },
+        {
+          "option": "Garfield",
+          "isCorrect": false
+        },
+        {
+          "option": "Tom és Jerry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik fizikai mennyiség mértékegysége a volt?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Elektromos feszültség",
+          "isCorrect": true
+        },
+        {
+          "option": "Áramerősség",
+          "isCorrect": false
+        },
+        {
+          "option": "Ellenállás",
+          "isCorrect": false
+        },
+        {
+          "option": "Teljesítmény",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az első nő, aki Nobel-díjat nyert?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Marie Curie",
+          "isCorrect": true
+        },
+        {
+          "option": "Rosalind Franklin",
+          "isCorrect": false
+        },
+        {
+          "option": "Ada Lovelace",
+          "isCorrect": false
+        },
+        {
+          "option": "Jane Goodall",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legnagyobb kontinens a Földön?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Ázsia",
+          "isCorrect": true
+        },
+        {
+          "option": "Afrika",
+          "isCorrect": false
+        },
+        {
+          "option": "Észak-Amerika",
+          "isCorrect": false
+        },
+        {
+          "option": "Dél-Amerika",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi az E = mc² képletben az 'm' betű jelentése?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Tömeg",
+          "isCorrect": true
+        },
+        {
+          "option": "Energia",
+          "isCorrect": false
+        },
+        {
+          "option": "Sebesség",
+          "isCorrect": false
+        },
+        {
+          "option": "Fénysebesség",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben fejeződött be a második világháború?",
+      "level": 3,
+      "options": [
+        {
+          "option": "1945",
+          "isCorrect": true
+        },
+        {
+          "option": "1939",
+          "isCorrect": false
+        },
+        {
+          "option": "1944",
+          "isCorrect": false
+        },
+        {
+          "option": "1950",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hány pár bordája van egy átlagos embernek?",
+      "level": 3,
+      "options": [
+        {
+          "option": "12",
+          "isCorrect": true
+        },
+        {
+          "option": "10",
+          "isCorrect": false
+        },
+        {
+          "option": "14",
+          "isCorrect": false
+        },
+        {
+          "option": "11",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki találta fel a telefonkészüléket?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Alexander Graham Bell",
+          "isCorrect": true
+        },
+        {
+          "option": "Thomas Edison",
+          "isCorrect": false
+        },
+        {
+          "option": "Nikola Tesla",
+          "isCorrect": false
+        },
+        {
+          "option": "Guglielmo Marconi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben tették le a berlini falat?",
+      "level": 3,
+      "options": [
+        {
+          "option": "1961",
+          "isCorrect": true
+        },
+        {
+          "option": "1958",
+          "isCorrect": false
+        },
+        {
+          "option": "1965",
+          "isCorrect": false
+        },
+        {
+          "option": "1971",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt Nagy Sándor tanítója?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Arisztotelész",
+          "isCorrect": true
+        },
+        {
+          "option": "Szókratész",
+          "isCorrect": false
+        },
+        {
+          "option": "Platón",
+          "isCorrect": false
+        },
+        {
+          "option": "Diogenész",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kémiai elem a 'Fe' vegyjele?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Vas",
+          "isCorrect": true
+        },
+        {
+          "option": "Fluor",
+          "isCorrect": false
+        },
+        {
+          "option": "Foszfor",
+          "isCorrect": false
+        },
+        {
+          "option": "Francium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hány bolygó található a Naprendszerben (a Plútó nélkül)?",
+      "level": 3,
+      "options": [
+        {
+          "option": "8",
+          "isCorrect": true
+        },
+        {
+          "option": "9",
+          "isCorrect": false
+        },
+        {
+          "option": "7",
+          "isCorrect": false
+        },
+        {
+          "option": "10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az első amerikai elnök?",
+      "level": 3,
+      "options": [
+        {
+          "option": "George Washington",
+          "isCorrect": true
+        },
+        {
+          "option": "Thomas Jefferson",
+          "isCorrect": false
+        },
+        {
+          "option": "Abraham Lincoln",
+          "isCorrect": false
+        },
+        {
+          "option": "John Adams",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ország található déli szomszédjaként az Egyesült Államoknak?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Mexikó",
+          "isCorrect": true
+        },
+        {
+          "option": "Kanada",
+          "isCorrect": false
+        },
+        {
+          "option": "Kubai Köztársaság",
+          "isCorrect": false
+        },
+        {
+          "option": "Brazília",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik tenger található Olaszország nyugati partjánál?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Tirrén-tenger",
+          "isCorrect": true
+        },
+        {
+          "option": "Adriai-tenger",
+          "isCorrect": false
+        },
+        {
+          "option": "Földközi-tenger",
+          "isCorrect": false
+        },
+        {
+          "option": "Égei-tenger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ország lakói használják a 'yen' valutát?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Japán",
+          "isCorrect": true
+        },
+        {
+          "option": "Kína",
+          "isCorrect": false
+        },
+        {
+          "option": "Dél-Korea",
+          "isCorrect": false
+        },
+        {
+          "option": "Thaiföld",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta az 'Odüsszeia' című eposzt?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Homérosz",
+          "isCorrect": true
+        },
+        {
+          "option": "Vergilius",
+          "isCorrect": false
+        },
+        {
+          "option": "Szophoklész",
+          "isCorrect": false
+        },
+        {
+          "option": "Euripidész",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ókori város romjai találhatók a mai Törökországban, és híres a könyvtáráról?",
+      "level": 3,
+      "options": [
+        {
+          "option": "Epheszosz",
+          "isCorrect": true
+        },
+        {
+          "option": "Pompeji",
+          "isCorrect": false
+        },
+        {
+          "option": "Karthágó",
+          "isCorrect": false
+        },
+        {
+          "option": "Athén",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik elem periódusos rendszeren kívüli izotópja a legstabilabb?",
       "level": 4,
       "options": [
         {
-          "option": "Az osztály a tervrajz, míg az objektum az osztály példánya.",
+          "option": "Ólom-208",
           "isCorrect": true
         },
         {
-          "option": "Az osztály egy konkrét entitás, míg az objektum egy absztrakció.",
+          "option": "Uránium-235",
           "isCorrect": false
         },
         {
-          "option": "Nincs különbség.",
+          "option": "Plutónium-244",
           "isCorrect": false
         },
         {
-          "option": "Az objektum a tervrajz, míg az osztály az objektum példánya.",
+          "option": "Szén-14",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mik azok a design patternök?",
+      "question": "Melyik bolygón található a Naprendszer legmagasabb hegye, az Olympus Mons?",
       "level": 4,
       "options": [
         {
-          "option": "Olyan általános megoldások gyakori problémákra a szoftverfejlesztésben.",
+          "option": "Mars",
           "isCorrect": true
         },
         {
-          "option": "Kódoptimalizáló eszközök.",
+          "option": "Vénusz",
           "isCorrect": false
         },
         {
-          "option": "Weboldalak tervezésére szolgáló sablonok.",
+          "option": "Merkúr",
           "isCorrect": false
         },
         {
-          "option": "Programozási nyelvek speciális elemei.",
+          "option": "Föld",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a jelentősége a tesztelésnek a szoftverfejlesztésben?",
+      "question": "Mi a Neumann-elv a számítástechnika területén?",
       "level": 4,
       "options": [
         {
-          "option": "Biztosítja a program helyes működését és a hibák minimalizálását.",
+          "option": "A számítógépek tárolt program elve",
           "isCorrect": true
         },
         {
-          "option": "Csökkenti a programozási nyelvek számát.",
+          "option": "A számítógépek párhuzamos működésének elve",
           "isCorrect": false
         },
         {
-          "option": "Segít az adatbázisok optimalizálásában.",
+          "option": "Az algoritmusok komplexitásának minimalizálása",
           "isCorrect": false
         },
         {
-          "option": "Növeli a program méretét.",
+          "option": "A számítógépes hálózatok közötti kommunikáció elve",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a különbség a szinkron és aszinkron programozás között?",
+      "question": "Melyik királyi dinasztia uralkodott Franciaországban a leghosszabb ideig?",
       "level": 4,
       "options": [
         {
-          "option": "A szinkron programozásban a kód egy sorban fut, míg az aszinkron programozás lehetővé teszi a párhuzamos végrehajtást.",
+          "option": "Capetingek",
           "isCorrect": true
         },
         {
-          "option": "Nincs különbség.",
+          "option": "Bourbonok",
           "isCorrect": false
         },
         {
-          "option": "A szinkron programozás lassabb, mint az aszinkron.",
+          "option": "Merovingok",
           "isCorrect": false
         },
         {
-          "option": "Az aszinkron programozás nem támogatja a hibakeresést.",
+          "option": "Valois-ok",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a Dependency Injection?",
+      "question": "Mi a Schrödinger-egyenlet szerepe a kvantummechanikában?",
       "level": 4,
       "options": [
         {
-          "option": "Olyan tervezési minta, amely segít a függőségek kezelésében a programban.",
+          "option": "A részecskék hullámfüggvényének leírása",
           "isCorrect": true
         },
         {
-          "option": "Olyan programozási nyelv, amely támogatja a moduláris fejlesztést.",
+          "option": "Az energia megmaradásának elve kvantumszinten",
           "isCorrect": false
         },
         {
-          "option": "Olyan eszköz, amely optimalizálja a program futási idejét.",
+          "option": "Az elektron pályáinak meghatározása",
           "isCorrect": false
         },
         {
-          "option": "Egy adatbázis-kezelő rendszer.",
+          "option": "A részecskék közötti kölcsönhatás modellezése",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a RESTful architektúra?",
+      "question": "Melyik építész tervezte a sydney-i operaházat?",
       "level": 4,
       "options": [
         {
-          "option": "Egy architektúra, amely HTTP protokollt használ és állapotmentes kommunikációt biztosít.",
+          "option": "Jørn Utzon",
           "isCorrect": true
         },
         {
-          "option": "Egy programozási nyelv.",
+          "option": "Frank Lloyd Wright",
           "isCorrect": false
         },
         {
-          "option": "Egy adatbázis-kezelő rendszer.",
+          "option": "Le Corbusier",
           "isCorrect": false
         },
         {
-          "option": "Egy weboldal dizájnmódszer.",
+          "option": "Ludwig Mies van der Rohe",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi a különbség a hagyományos és a NoSQL adatbázisok között?",
+      "question": "Melyik ország vezette be először a közvetlen jövedelemadót?",
       "level": 4,
       "options": [
         {
-          "option": "A hagyományos adatbázisok relációsak, míg a NoSQL adatbázisok nem relációsak.",
+          "option": "Nagy-Britannia",
           "isCorrect": true
         },
         {
-          "option": "Nincs különbség.",
+          "option": "Franciaország",
           "isCorrect": false
         },
         {
-          "option": "A NoSQL adatbázisok mindig lassabbak.",
+          "option": "Amerikai Egyesült Államok",
           "isCorrect": false
         },
         {
-          "option": "A hagyományos adatbázisok nem használják a SQL-t.",
+          "option": "Hollandia",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Mi az a microservices architektúra?",
+      "question": "Melyik a világ leghosszabb vasúti alagútja?",
       "level": 4,
       "options": [
         {
-          "option": "Olyan architektúra, amely kis, független szolgáltatásokból építkezik.",
+          "option": "Gotthárd-bázisalagút",
           "isCorrect": true
         },
         {
-          "option": "Olyan architektúra, amely monolitikus rendszereken alapul.",
+          "option": "Seikan-alagút",
           "isCorrect": false
         },
         {
-          "option": "Olyan architektúra, amely kizárólag felhőalapú szolgáltatásokat használ.",
+          "option": "Csatorna-alagút",
           "isCorrect": false
         },
         {
-          "option": "Olyan architektúra, amely nem skálázható.",
+          "option": "Sempione-alagút",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a „Gödel, Escher, Bach” című könyvet?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Douglas Hofstadter",
+          "isCorrect": true
+        },
+        {
+          "option": "Stephen Hawking",
+          "isCorrect": false
+        },
+        {
+          "option": "Richard Feynman",
+          "isCorrect": false
+        },
+        {
+          "option": "Isaac Asimov",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik fizikus fejlesztette ki a kvantum-számítástechnikát megalapozó algoritmust?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Peter Shor",
+          "isCorrect": true
+        },
+        {
+          "option": "David Deutsch",
+          "isCorrect": false
+        },
+        {
+          "option": "Richard Feynman",
+          "isCorrect": false
+        },
+        {
+          "option": "Alan Turing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik űrszonda volt az első, amely elérte a Naprendszer határát?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Voyager 1",
+          "isCorrect": true
+        },
+        {
+          "option": "Pioneer 10",
+          "isCorrect": false
+        },
+        {
+          "option": "New Horizons",
+          "isCorrect": false
+        },
+        {
+          "option": "Cassini",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a Goldbach-sejtés az elméleti matematikában?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Minden páros szám felírható két prímszám összegeként",
+          "isCorrect": true
+        },
+        {
+          "option": "Minden természetes szám prímtényezőkre bontható",
+          "isCorrect": false
+        },
+        {
+          "option": "A prímszámok száma végtelen",
+          "isCorrect": false
+        },
+        {
+          "option": "Minden prímszám felírható két négyzetszám különbségeként",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik biológus fogalmazta meg a természetes szelekció elméletét Darwin mellett?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Alfred Russel Wallace",
+          "isCorrect": true
+        },
+        {
+          "option": "Jean-Baptiste Lamarck",
+          "isCorrect": false
+        },
+        {
+          "option": "Gregor Mendel",
+          "isCorrect": false
+        },
+        {
+          "option": "Thomas Huxley",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ókori filozófus fogalmazta meg a lélek három részre osztásának elméletét?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Platón",
+          "isCorrect": true
+        },
+        {
+          "option": "Arisztotelész",
+          "isCorrect": false
+        },
+        {
+          "option": "Szókratész",
+          "isCorrect": false
+        },
+        {
+          "option": "Epikurosz",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a Hubble állandó mérése által megállapított tényező a világegyetem tágulásával kapcsolatban?",
+      "level": 4,
+      "options": [
+        {
+          "option": "A távoli galaxisok gyorsabban távolodnak, mint a közeli galaxisok",
+          "isCorrect": true
+        },
+        {
+          "option": "Az univerzum állandó sebességgel tágul",
+          "isCorrect": false
+        },
+        {
+          "option": "A világegyetem lassuló tágulása figyelhető meg",
+          "isCorrect": false
+        },
+        {
+          "option": "A galaxisok mozgása független a távolságuktól",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a „Leviatán” című filozófiai művet?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Thomas Hobbes",
+          "isCorrect": true
+        },
+        {
+          "option": "John Locke",
+          "isCorrect": false
+        },
+        {
+          "option": "Jean-Jacques Rousseau",
+          "isCorrect": false
+        },
+        {
+          "option": "Immanuel Kant",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legnagyobb ismert prímszám a 2024-es állás szerint?",
+      "level": 4,
+      "options": [
+        {
+          "option": "2^82,589,933−1",
+          "isCorrect": true
+        },
+        {
+          "option": "2^77,232,917−1",
+          "isCorrect": false
+        },
+        {
+          "option": "2^74,207,281−1",
+          "isCorrect": false
+        },
+        {
+          "option": "2^31,592,179−1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ókori birodalom volt híres az első kodifikált jogrendszerről, amelyet Hammurabi király vezetett be?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Babiloni Birodalom",
+          "isCorrect": true
+        },
+        {
+          "option": "Asszír Birodalom",
+          "isCorrect": false
+        },
+        {
+          "option": "Sumér Birodalom",
+          "isCorrect": false
+        },
+        {
+          "option": "Egyiptomi Birodalom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik anyagot használják a modern kvantumszámítógépek qubitjeinek fizikai megvalósítására?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Szupervezetők",
+          "isCorrect": true
+        },
+        {
+          "option": "Fotonok",
+          "isCorrect": false
+        },
+        {
+          "option": "Elektromos ellenállások",
+          "isCorrect": false
+        },
+        {
+          "option": "Grafén",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta az 1919-es „General Theory of Relativity” című tudományos munkát?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Albert Einstein",
+          "isCorrect": true
+        },
+        {
+          "option": "Niels Bohr",
+          "isCorrect": false
+        },
+        {
+          "option": "Max Planck",
+          "isCorrect": false
+        },
+        {
+          "option": "Werner Heisenberg",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres zeneszerző írta meg az „Eroica” szimfóniát?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Ludwig van Beethoven",
+          "isCorrect": true
+        },
+        {
+          "option": "Wolfgang Amadeus Mozart",
+          "isCorrect": false
+        },
+        {
+          "option": "Johann Sebastian Bach",
+          "isCorrect": false
+        },
+        {
+          "option": "Joseph Haydn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen műveletet hajt végre egy Fourier-transzformáció a matematikában?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Egy időtartománybeli függvényt frekvenciatartományba konvertál",
+          "isCorrect": true
+        },
+        {
+          "option": "Egy függvény deriválását végzi el",
+          "isCorrect": false
+        },
+        {
+          "option": "Egy végtelen sor összegzését végzi el",
+          "isCorrect": false
+        },
+        {
+          "option": "Egy vektor normájának kiszámítása",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik űrhajó szállt le először a Holdon?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Apollo 11",
+          "isCorrect": true
+        },
+        {
+          "option": "Apollo 12",
+          "isCorrect": false
+        },
+        {
+          "option": "Luna 9",
+          "isCorrect": false
+        },
+        {
+          "option": "Gemini 8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres matematikus bizonyította be az utolsó Fermat-sejtést?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Andrew Wiles",
+          "isCorrect": true
+        },
+        {
+          "option": "Carl Friedrich Gauss",
+          "isCorrect": false
+        },
+        {
+          "option": "Pierre-Simon Laplace",
+          "isCorrect": false
+        },
+        {
+          "option": "Leonhard Euler",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi az emberi DNS-ben található nukleotidok négy fő típusa?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Adenin, Citozin, Guanin, Timin",
+          "isCorrect": true
+        },
+        {
+          "option": "Uracil, Adenin, Guanin, Citozin",
+          "isCorrect": false
+        },
+        {
+          "option": "Timin, Uracil, Citozin, Guanin",
+          "isCorrect": false
+        },
+        {
+          "option": "Adenin, Uracil, Guanin, Citozin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik nyelvet használták a régi római jogrendszer kidolgozására?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Latin",
+          "isCorrect": true
+        },
+        {
+          "option": "Görög",
+          "isCorrect": false
+        },
+        {
+          "option": "Etruszk",
+          "isCorrect": false
+        },
+        {
+          "option": "Ókori egyiptomi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik tudós fejtette meg az első DNS szerkezetét, ami kettős spirál alakú?",
+      "level": 4,
+      "options": [
+        {
+          "option": "James Watson és Francis Crick",
+          "isCorrect": true
+        },
+        {
+          "option": "Rosalind Franklin",
+          "isCorrect": false
+        },
+        {
+          "option": "Erwin Chargaff",
+          "isCorrect": false
+        },
+        {
+          "option": "Linus Pauling",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik matematikai probléma megoldását bizonyította Andrew Wiles 1994-ben?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Fermat utolsó tétele",
+          "isCorrect": true
+        },
+        {
+          "option": "Riemann-sejtés",
+          "isCorrect": false
+        },
+        {
+          "option": "Poincaré-sejtés",
+          "isCorrect": false
+        },
+        {
+          "option": "Goldbach-sejtés",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi volt az első részecske, amelyet az 1950-es években fedeztek fel a kvarkmodell előtt?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Pion",
+          "isCorrect": true
+        },
+        {
+          "option": "Higgs-bozon",
+          "isCorrect": false
+        },
+        {
+          "option": "Neutrínó",
+          "isCorrect": false
+        },
+        {
+          "option": "Foton",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres filozófus írta a „Critique of Pure Reason” (A tiszta ész kritikája) című művet?",
+      "level": 4,
+      "options": [
+        {
+          "option": "Immanuel Kant",
+          "isCorrect": true
+        },
+        {
+          "option": "René Descartes",
+          "isCorrect": false
+        },
+        {
+          "option": "Friedrich Nietzsche",
+          "isCorrect": false
+        },
+        {
+          "option": "David Hume",
           "isCorrect": false
         }
       ]
