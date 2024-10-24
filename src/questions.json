@@ -1,24 +1,54 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "name": "Informatika"
+    },
+    {
+      "id": 2,
+      "name": "Videójáték"
+    },
+    {
+      "id": 3,
+      "name": "Történelem"
+    },
+    {
+      "id": 4,
+      "name": "Matematika"
+    },
+    {
+      "id": 5,
+      "name": "Magyar / Irodalom"
+    },
+    {
+      "id": 6,
+      "name": "Filmek / Könyvek"
+    },
+    {
+      "id": 7,
+      "name": "Természettudományok / Világ"
+    }
+  ],
   "difficulty_levels": [
     {
       "name": "Könnyű",
       "level": 1,
-      "questions": 10
+      "questions": 5
     },
     {
       "name": "Közepes",
       "level": 2,
-      "questions": 10
+      "questions": 6
     },
     {
       "name": "Nehéz",
       "level": 3,
-      "questions": 15
+      "questions": 8
     },
     {
       "name": "Extrém",
       "level": 4,
-      "questions": 20
+      "questions": 10
     }
   ],
   "healthByLevels": {
@@ -30,7 +60,8 @@
   },
   "questions": [
     {
-      "question": "Mikor szünt meg a Szovjetunió?",
+      "question": "Mikor szűnt meg a Szovjetunió?",
+      "categoryId": 3,
       "level": 1,
       "options": [
         {
@@ -46,14 +77,2913 @@
           "isCorrect": false
         },
         {
-          "option": "1812",
+          "option": "1922",
           "isCorrect": false
         }
       ]
     },
     {
-      "question": "Melyik képes a leggyorsabb adatátvitelre",
+      "question": "I. Mátyás király mettől meddig uralkodott?",
+      "categoryId": 3,
       "level": 1,
+      "options": [
+        {
+          "option": "1492-1526",
+          "isCorrect": false
+        },
+        {
+          "option": "1458-1490",
+          "isCorrect": true
+        },
+        {
+          "option": "1301-1336",
+          "isCorrect": false
+        },
+        {
+          "option": "1442-1468",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a főgonosz a 2012-es Bosszúállók című filmben?",
+      "categoryId": 6,
+      "level": 1,
+      "options": [
+        {
+          "option": "Kang, a Hódító",
+          "isCorrect": false
+        },
+        {
+          "option": "Thanos",
+          "isCorrect": false
+        },
+        {
+          "option": "Loki",
+          "isCorrect": true
+        },
+        {
+          "option": "Ultron",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a Tűz és Jég dala című regényciklust?",
+      "categoryId": 6,
+      "level": 1,
+      "options": [
+        {
+          "option": "J. R. R. Tolkien",
+          "isCorrect": false
+        },
+        {
+          "option": "George R. R. Martin",
+          "isCorrect": true
+        },
+        {
+          "option": "J. K. Rowling",
+          "isCorrect": false
+        },
+        {
+          "option": "Pearl S. Buck",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor jelent meg a The Boys című sorozat első évada?",
+      "categoryId": 6,
+      "level": 2,
+      "options": [
+        {
+          "option": "2020.",
+          "isCorrect": false
+        },
+        {
+          "option": "2022.",
+          "isCorrect": false
+        },
+        {
+          "option": "2018.",
+          "isCorrect": false
+        },
+        {
+          "option": "2019.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Melyik cég adta ki a Witcher 3-mat?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "CD Projekt RED",
+          "isCorrect": true
+        },
+        {
+          "option": "Ubisoft",
+          "isCorrect": false
+        },
+        {
+          "option": "Electronic Arts",
+          "isCorrect": false
+        },
+        {
+          "option": "Tencent Games",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi az értéke 9*8+(9-6!)-nak?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "75",
+          "isCorrect": false
+        },
+        {
+          "option": "-639",
+          "isCorrect": true
+        },
+        {
+          "option": "720",
+          "isCorrect": false
+        },
+        {
+          "option": "64",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Minek a rövidítése a híres étteremlánc, a KFC?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Kerry's Fried Chicken",
+          "isCorrect": false
+        },
+        {
+          "option": "Kentucky Fried Chicken",
+          "isCorrect": true
+        },
+        {
+          "option": "Kitten Fashion Council",
+          "isCorrect": false
+        },
+        {
+          "option": "Kangaroo Fitness Challenge",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A 3 következő karakter melyik sorozatban szerepel? Samantha Eve Wilkins, Mark Grayson, Allen The Alien",
+      "categoryId": 6,
+      "level": 2,
+      "options": [
+        {
+          "option": "Maffiózók",
+          "isCorrect": false
+        },
+        {
+          "option": "Breaking Bad",
+          "isCorrect": false
+        },
+        {
+          "option": "Mindvégig Agatha",
+          "isCorrect": false
+        },
+        {
+          "option": "Legyőzhetetlen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Melyik autó nyerte el az Év Autója díjat 2022-ben?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Ford Mustang Mach-E",
+          "isCorrect": false
+        },
+        {
+          "option": "Toyota Corolla",
+          "isCorrect": false
+        },
+        {
+          "option": "Kia EV6",
+          "isCorrect": true
+        },
+        {
+          "option": "Hyundai Ioniq 5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hogyan írjuk le helyesen Japán fővárosának a nevét?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Peking",
+          "isCorrect": false
+        },
+        {
+          "option": "Ezek közül egyik sem",
+          "isCorrect": true
+        },
+        {
+          "option": "Beijing",
+          "isCorrect": false
+        },
+        {
+          "option": "Pekking",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik állatot lehet répával irányítani a Minecraft videójátékban?",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "Malac",
+          "isCorrect": true
+        },
+        {
+          "option": "Tehén",
+          "isCorrect": false
+        },
+        {
+          "option": "Bárány",
+          "isCorrect": false
+        },
+        {
+          "option": "Láma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hogy hívják a főgonoszt a Szuperhősök világában című könyvben?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Christopher Blade",
+          "isCorrect": true
+        },
+        {
+          "option": "A Csontmorzsoló",
+          "isCorrect": false
+        },
+        {
+          "option": "Jasper",
+          "isCorrect": false
+        },
+        {
+          "option": "Dr. Doom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videójátékot nem a Bethesda Softworks cég adta ki?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "The Elder Scrolls V: Skyrim",
+          "isCorrect": false
+        },
+        {
+          "option": "Fallout 4",
+          "isCorrect": false
+        },
+        {
+          "option": "The Witcher 3: Wild Hunt",
+          "isCorrect": true
+        },
+        {
+          "option": "Apex Legends",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a teljes neve Super Mario testvérének?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Luigi Plumber",
+          "isCorrect": false
+        },
+        {
+          "option": "Super Wario",
+          "isCorrect": false
+        },
+        {
+          "option": "Luigi Mario",
+          "isCorrect": true
+        },
+        {
+          "option": "Bowser",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videójáték főhőse Jill Valentine?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Metal Gear Solid",
+          "isCorrect": false
+        },
+        {
+          "option": "Silent Hill",
+          "isCorrect": false
+        },
+        {
+          "option": "Resident Evil",
+          "isCorrect": true
+        },
+        {
+          "option": "Tomb Raider",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "LoL-ban melyik karakter használ íjat?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Miss Fortune",
+          "isCorrect": false
+        },
+        {
+          "option": "Varus",
+          "isCorrect": true
+        },
+        {
+          "option": "Jinx",
+          "isCorrect": false
+        },
+        {
+          "option": "Caitlyn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben volt a mohácsi csata?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "1492.",
+          "isCorrect": false
+        },
+        {
+          "option": "1699.",
+          "isCorrect": false
+        },
+        {
+          "option": "1526.",
+          "isCorrect": true
+        },
+        {
+          "option": "1514.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mit jelent a CSS rövidítés?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": "Cascading Style Sheets",
+          "isCorrect": true
+        },
+        {
+          "option": "Creative Styling System",
+          "isCorrect": false
+        },
+        {
+          "option": "Computer Style Syntax",
+          "isCorrect": false
+        },
+        {
+          "option": "Coded Style Script",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az első elnöke az Amerikai Egyesült Államoknak?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "George W. Bush",
+          "isCorrect": false
+        },
+        {
+          "option": "Thomas Jefferson",
+          "isCorrect": false
+        },
+        {
+          "option": "Abraham Lincoln",
+          "isCorrect": false
+        },
+        {
+          "option": "George Washington",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Melyik birodalom omlott össze i.sz. 476-ban?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "Nyugatrómai Birodalom",
+          "isCorrect": true
+        },
+        {
+          "option": "Keletrómai Birodalom",
+          "isCorrect": false
+        },
+        {
+          "option": "Bizánci Birodalom",
+          "isCorrect": false
+        },
+        {
+          "option": "Oszmán Birodalom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki mondta ezt a híres mondatot? Egy ember halála tragédia, milliók halála statisztika.",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Adolf Hitler",
+          "isCorrect": false
+        },
+        {
+          "option": "Benito Mussolini",
+          "isCorrect": false
+        },
+        {
+          "option": "Joszif Sztálin",
+          "isCorrect": true
+        },
+        {
+          "option": "Vlagyimir Lenin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki a Spongyabob Kockanadrág mesesorozat megalkotója?",
+      "categoryId": 6,
+      "level": 2,
+      "options": [
+        {
+          "option": "Stephen Baldwin",
+          "isCorrect": false
+        },
+        {
+          "option": "Stephen King",
+          "isCorrect": false
+        },
+        {
+          "option": "Stephen Hillenburg",
+          "isCorrect": true
+        },
+        {
+          "option": "Stephen Hawking",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a számunkra eddig ismert feketelyuk a legnagyobb az alábbiak közül?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Phoenix A",
+          "isCorrect": false
+        },
+        {
+          "option": "S5 0014+81",
+          "isCorrect": false
+        },
+        {
+          "option": "Sagittarius A*",
+          "isCorrect": false
+        },
+        {
+          "option": "Ton 618",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Mi a Python programozási nyelv egyik jellegzetes tulajdonsága?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": "Az olvashatóságot helyezi előtérbe.",
+          "isCorrect": true
+        },
+        {
+          "option": "Alapvetően gépi kódot használ.",
+          "isCorrect": false
+        },
+        {
+          "option": "Csak játékfejlesztésre használják.",
+          "isCorrect": false
+        },
+        {
+          "option": "C++ alapú nyelv.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videójáték fejlesztette ki az Unreal Engine motort?",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "Epic Games",
+          "isCorrect": true
+        },
+        {
+          "option": "Valve",
+          "isCorrect": false
+        },
+        {
+          "option": "Ubisoft",
+          "isCorrect": false
+        },
+        {
+          "option": "Activision",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor történt a francia forradalom?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "1789",
+          "isCorrect": true
+        },
+        {
+          "option": "1815",
+          "isCorrect": false
+        },
+        {
+          "option": "1848",
+          "isCorrect": false
+        },
+        {
+          "option": "1492",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi 7*8?",
+      "categoryId": 4,
+      "level": 1,
+      "options": [
+        {
+          "option": "56",
+          "isCorrect": true
+        },
+        {
+          "option": "63",
+          "isCorrect": false
+        },
+        {
+          "option": "49",
+          "isCorrect": false
+        },
+        {
+          "option": "54",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a 'Bánk bán' című drámát?",
+      "categoryId": 5,
+      "level": 1,
+      "options": [
+        {
+          "option": "Katona József",
+          "isCorrect": true
+        },
+        {
+          "option": "Jókai Mór",
+          "isCorrect": false
+        },
+        {
+          "option": "Petőfi Sándor",
+          "isCorrect": false
+        },
+        {
+          "option": "Ady Endre",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik filmben szerepelt a híres idézet: 'I am your father'?",
+      "categoryId": 6,
+      "level": 1,
+      "options": [
+        {
+          "option": "Csillagok háborúja: A Birodalom visszavág",
+          "isCorrect": true
+        },
+        {
+          "option": "A keresztapa",
+          "isCorrect": false
+        },
+        {
+          "option": "Indiana Jones",
+          "isCorrect": false
+        },
+        {
+          "option": "Titanic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a fővárosa Ausztráliának?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Canberra",
+          "isCorrect": true
+        },
+        {
+          "option": "Sydney",
+          "isCorrect": false
+        },
+        {
+          "option": "Melbourne",
+          "isCorrect": false
+        },
+        {
+          "option": "Perth",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik cég gyártotta a Model T autót?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Ford",
+          "isCorrect": true
+        },
+        {
+          "option": "General Motors",
+          "isCorrect": false
+        },
+        {
+          "option": "Tesla",
+          "isCorrect": false
+        },
+        {
+          "option": "Chrysler",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik programozási nyelv népszerű weboldalak backend fejlesztésére?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "PHP",
+          "isCorrect": true
+        },
+        {
+          "option": "HTML",
+          "isCorrect": false
+        },
+        {
+          "option": "CSS",
+          "isCorrect": false
+        },
+        {
+          "option": "JavaScript",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videójáték sorozat főszereplője Link?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "The Legend of Zelda",
+          "isCorrect": true
+        },
+        {
+          "option": "Final Fantasy",
+          "isCorrect": false
+        },
+        {
+          "option": "Halo",
+          "isCorrect": false
+        },
+        {
+          "option": "Mass Effect",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az első római császár?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Augustus",
+          "isCorrect": true
+        },
+        {
+          "option": "Julius Caesar",
+          "isCorrect": false
+        },
+        {
+          "option": "Nero",
+          "isCorrect": false
+        },
+        {
+          "option": "Hadrianus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi a 25 négyzetgyöke?",
+      "categoryId": 4,
+      "level": 2,
+      "options": [
+        {
+          "option": "5",
+          "isCorrect": true
+        },
+        {
+          "option": "10",
+          "isCorrect": false
+        },
+        {
+          "option": "4",
+          "isCorrect": false
+        },
+        {
+          "option": "6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a 'Pál utcai fiúk' című regényt?",
+      "categoryId": 5,
+      "level": 2,
+      "options": [
+        {
+          "option": "Molnár Ferenc",
+          "isCorrect": true
+        },
+        {
+          "option": "Móricz Zsigmond",
+          "isCorrect": false
+        },
+        {
+          "option": "Jókai Mór",
+          "isCorrect": false
+        },
+        {
+          "option": "Karinthy Frigyes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik film rendezte Steven Spielberg?",
+      "categoryId": 6,
+      "level": 2,
+      "options": [
+        {
+          "option": "Schindler listája",
+          "isCorrect": true
+        },
+        {
+          "option": "A nagy Gatsby",
+          "isCorrect": false
+        },
+        {
+          "option": "A remény rabjai",
+          "isCorrect": false
+        },
+        {
+          "option": "Eredet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kontinensen található a Nílus folyó?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Afrika",
+          "isCorrect": true
+        },
+        {
+          "option": "Ázsia",
+          "isCorrect": false
+        },
+        {
+          "option": "Európa",
+          "isCorrect": false
+        },
+        {
+          "option": "Dél-Amerika",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor alapították a Microsoft céget?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "1975",
+          "isCorrect": true
+        },
+        {
+          "option": "1980",
+          "isCorrect": false
+        },
+        {
+          "option": "1990",
+          "isCorrect": false
+        },
+        {
+          "option": "1965",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi az a list comprehension a Pythonban?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "Egy szintaxis a listák egyszerűbb és olvashatóbb létrehozásához.",
+          "isCorrect": true
+        },
+        {
+          "option": "Egy adatbázis-kezelési módszer.",
+          "isCorrect": false
+        },
+        {
+          "option": "Egy hiba kezelésére szolgáló eszköz.",
+          "isCorrect": false
+        },
+        {
+          "option": "Egy modul a matematikai számításokhoz.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videójáték rendelkezik a 'Nuke Town' nevű pályával?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Call of Duty",
+          "isCorrect": true
+        },
+        {
+          "option": "Battlefield",
+          "isCorrect": false
+        },
+        {
+          "option": "Fortnite",
+          "isCorrect": false
+        },
+        {
+          "option": "Overwatch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az első női miniszterelnök az Egyesült Királyságban?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "Margaret Thatcher",
+          "isCorrect": true
+        },
+        {
+          "option": "Theresa May",
+          "isCorrect": false
+        },
+        {
+          "option": "Angela Merkel",
+          "isCorrect": false
+        },
+        {
+          "option": "Indira Gandhi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a deriváltja az ( x^2 ) függvénynek?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "2x",
+          "isCorrect": true
+        },
+        {
+          "option": "x",
+          "isCorrect": false
+        },
+        {
+          "option": "x^2",
+          "isCorrect": false
+        },
+        {
+          "option": "1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a 'Divina Commedia' című művet?",
+      "categoryId": 5,
+      "level": 3,
+      "options": [
+        {
+          "option": "Dante Alighieri",
+          "isCorrect": true
+        },
+        {
+          "option": "William Shakespeare",
+          "isCorrect": false
+        },
+        {
+          "option": "Homer",
+          "isCorrect": false
+        },
+        {
+          "option": "John Milton",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik rendező készítette a 'Ponyvaregény' című filmet?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "Quentin Tarantino",
+          "isCorrect": true
+        },
+        {
+          "option": "Martin Scorsese",
+          "isCorrect": false
+        },
+        {
+          "option": "Christopher Nolan",
+          "isCorrect": false
+        },
+        {
+          "option": "Steven Spielberg",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ország fővárosa Lima?",
+      "categoryId": 7,
+      "level": 3,
+      "options": [
+        {
+          "option": "Peru",
+          "isCorrect": true
+        },
+        {
+          "option": "Chile",
+          "isCorrect": false
+        },
+        {
+          "option": "Bolívia",
+          "isCorrect": false
+        },
+        {
+          "option": "Ecuador",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik vállalat készítette az első iPhone-t?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "Apple",
+          "isCorrect": true
+        },
+        {
+          "option": "Samsung",
+          "isCorrect": false
+        },
+        {
+          "option": "Nokia",
+          "isCorrect": false
+        },
+        {
+          "option": "Sony",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi az immutable adatstruktúra a Pythonban?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Tuple",
+          "isCorrect": true
+        },
+        {
+          "option": "List",
+          "isCorrect": false
+        },
+        {
+          "option": "Dictionary",
+          "isCorrect": false
+        },
+        {
+          "option": "Set",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videojátékban szerepel a 'Sheikah Slate'?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "The Legend of Zelda: Breath of the Wild",
+          "isCorrect": true
+        },
+        {
+          "option": "Dark Souls",
+          "isCorrect": false
+        },
+        {
+          "option": "Assassin's Creed",
+          "isCorrect": false
+        },
+        {
+          "option": "Horizon Zero Dawn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik esemény vezetett az első világháború kitöréséhez?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Ferenc Ferdinánd meggyilkolása",
+          "isCorrect": true
+        },
+        {
+          "option": "A Lusitania elsüllyedése",
+          "isCorrect": false
+        },
+        {
+          "option": "A versailles-i békeszerződés aláírása",
+          "isCorrect": false
+        },
+        {
+          "option": "A párizsi forradalom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik regény íródott George Orwell tollából?",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "1984",
+          "isCorrect": true
+        },
+        {
+          "option": "A nagy Gatsby",
+          "isCorrect": false
+        },
+        {
+          "option": "Száz év magány",
+          "isCorrect": false
+        },
+        {
+          "option": "Moby Dick",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik film nyert Oscar-díjat legjobb film kategóriában 1994-ben?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Forrest Gump",
+          "isCorrect": true
+        },
+        {
+          "option": "A remény rabjai",
+          "isCorrect": false
+        },
+        {
+          "option": "Pulp Fiction",
+          "isCorrect": false
+        },
+        {
+          "option": "A király beszéde",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kontinensen található Paraguay?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Dél-Amerika",
+          "isCorrect": true
+        },
+        {
+          "option": "Afrika",
+          "isCorrect": false
+        },
+        {
+          "option": "Ázsia",
+          "isCorrect": false
+        },
+        {
+          "option": "Európa",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik cég vezette be először a fizetési lehetőséget okostelefonnal (Apple Pay)?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Apple",
+          "isCorrect": true
+        },
+        {
+          "option": "Google",
+          "isCorrect": false
+        },
+        {
+          "option": "Samsung",
+          "isCorrect": false
+        },
+        {
+          "option": "Microsoft",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a Python programozási nyelv fájlkiterjesztése?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": ".py",
+          "isCorrect": true
+        },
+        {
+          "option": ".java",
+          "isCorrect": false
+        },
+        {
+          "option": ".exe",
+          "isCorrect": false
+        },
+        {
+          "option": ".kigyo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videojátékban található a karakter, Mario?",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "Super Mario",
+          "isCorrect": true
+        },
+        {
+          "option": "Call of Duty",
+          "isCorrect": false
+        },
+        {
+          "option": "Minecraft",
+          "isCorrect": false
+        },
+        {
+          "option": "Fortnite",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a második elnöke az Egyesült Államoknak?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "John Adams",
+          "isCorrect": true
+        },
+        {
+          "option": "George Washington",
+          "isCorrect": false
+        },
+        {
+          "option": "Abraham Lincoln",
+          "isCorrect": false
+        },
+        {
+          "option": "Thomas Jefferson",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi 2 + 3! ?",
+      "categoryId": 4,
+      "level": 1,
+      "options": [
+        {
+          "option": "8",
+          "isCorrect": true
+        },
+        {
+          "option": "3",
+          "isCorrect": false
+        },
+        {
+          "option": "5",
+          "isCorrect": false
+        },
+        {
+          "option": "6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a 'Romeo és Júlia' című művet?",
+      "categoryId": 5,
+      "level": 1,
+      "options": [
+        {
+          "option": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "option": "Charles Dickens",
+          "isCorrect": false
+        },
+        {
+          "option": "J.K. Rowling",
+          "isCorrect": false
+        },
+        {
+          "option": "Mark Twain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik filmben szerepel Luke Skywalker?",
+      "categoryId": 6,
+      "level": 1,
+      "options": [
+        {
+          "option": "Star Wars",
+          "isCorrect": true
+        },
+        {
+          "option": "Harry Potter",
+          "isCorrect": false
+        },
+        {
+          "option": "A Gyűrűk Ura",
+          "isCorrect": false
+        },
+        {
+          "option": "A Karib-tenger kalózai",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ország fővárosa Párizs?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Franciaország",
+          "isCorrect": true
+        },
+        {
+          "option": "Spanyolország",
+          "isCorrect": false
+        },
+        {
+          "option": "Olaszország",
+          "isCorrect": false
+        },
+        {
+          "option": "Németország",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik cég hozta létre az Android operációs rendszert?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": "Google",
+          "isCorrect": true
+        },
+        {
+          "option": "Apple",
+          "isCorrect": false
+        },
+        {
+          "option": "Microsoft",
+          "isCorrect": false
+        },
+        {
+          "option": "Samsung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a Python 'print()' függvény célja?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "Kimenetet jelenít meg a konzolon.",
+          "isCorrect": true
+        },
+        {
+          "option": "Fájlokat nyomtat ki.",
+          "isCorrect": false
+        },
+        {
+          "option": "Képernyőt tisztít.",
+          "isCorrect": false
+        },
+        {
+          "option": "Programot futtat.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik játéksorozat része a 'FIFA'?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Futball",
+          "isCorrect": true
+        },
+        {
+          "option": "Kosárlabda",
+          "isCorrect": false
+        },
+        {
+          "option": "Autóverseny",
+          "isCorrect": false
+        },
+        {
+          "option": "Golf",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres amerikai elnök szabadította fel a rabszolgákat?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Abraham Lincoln",
+          "isCorrect": true
+        },
+        {
+          "option": "George Washington",
+          "isCorrect": false
+        },
+        {
+          "option": "John F. Kennedy",
+          "isCorrect": false
+        },
+        {
+          "option": "Theodore Roosevelt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a Pi (π) közelítő értéke?",
+      "categoryId": 4,
+      "level": 2,
+      "options": [
+        {
+          "option": "3.14",
+          "isCorrect": true
+        },
+        {
+          "option": "2.71",
+          "isCorrect": false
+        },
+        {
+          "option": "1.62",
+          "isCorrect": false
+        },
+        {
+          "option": "0.57",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta az 'Anna Karenina' című regényt?",
+      "categoryId": 5,
+      "level": 2,
+      "options": [
+        {
+          "option": "Lev Tolsztoj",
+          "isCorrect": true
+        },
+        {
+          "option": "Fjodor Dosztojevszkij",
+          "isCorrect": false
+        },
+        {
+          "option": "Jane Austen",
+          "isCorrect": false
+        },
+        {
+          "option": "Victor Hugo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik filmből származik a híres idézet: 'I'll be back'?",
+      "categoryId": 6,
+      "level": 2,
+      "options": [
+        {
+          "option": "Terminátor",
+          "isCorrect": true
+        },
+        {
+          "option": "Die Hard",
+          "isCorrect": false
+        },
+        {
+          "option": "Rambo",
+          "isCorrect": false
+        },
+        {
+          "option": "Predator",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ország fővárosa Tokió?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Japán",
+          "isCorrect": true
+        },
+        {
+          "option": "Dél-Korea",
+          "isCorrect": false
+        },
+        {
+          "option": "Kína",
+          "isCorrect": false
+        },
+        {
+          "option": "Thaiföld",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik vállalat készíti az iPhone okostelefonokat?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "Apple",
+          "isCorrect": true
+        },
+        {
+          "option": "Google",
+          "isCorrect": false
+        },
+        {
+          "option": "Samsung",
+          "isCorrect": false
+        },
+        {
+          "option": "Microsoft",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a különbség a listák és a tuple-ok között Pythonban?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "A tuple-ok változtathatatlanok, míg a listák változtathatók.",
+          "isCorrect": true
+        },
+        {
+          "option": "A listák gyorsabbak, mint a tuple-ok.",
+          "isCorrect": false
+        },
+        {
+          "option": "A tuple-ok nem támogatják az indexelést.",
+          "isCorrect": false
+        },
+        {
+          "option": "A listák nem tudnak duplikált értékeket tartalmazni.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik játéknak van az 'Eagle' című hívása?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Call of Duty",
+          "isCorrect": true
+        },
+        {
+          "option": "Halo",
+          "isCorrect": false
+        },
+        {
+          "option": "Counter-Strike",
+          "isCorrect": false
+        },
+        {
+          "option": "Battlefield",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az Egyesült Államok harmadik elnöke?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "Thomas Jefferson",
+          "isCorrect": true
+        },
+        {
+          "option": "John Adams",
+          "isCorrect": false
+        },
+        {
+          "option": "James Madison",
+          "isCorrect": false
+        },
+        {
+          "option": "George Washington",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi 15 * 15?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "225",
+          "isCorrect": true
+        },
+        {
+          "option": "150",
+          "isCorrect": false
+        },
+        {
+          "option": "300",
+          "isCorrect": false
+        },
+        {
+          "option": "175",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik irodalmi irányzatban találkozhatunk a szimbolizmussal?",
+      "categoryId": 5,
+      "level": 3,
+      "options": [
+        {
+          "option": "Modernizmus",
+          "isCorrect": true
+        },
+        {
+          "option": "Romantika",
+          "isCorrect": false
+        },
+        {
+          "option": "Realizmus",
+          "isCorrect": false
+        },
+        {
+          "option": "Barokk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik filmben szerepel a 'Neo' karakter?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "The Matrix",
+          "isCorrect": true
+        },
+        {
+          "option": "Inception",
+          "isCorrect": false
+        },
+        {
+          "option": "Interstellar",
+          "isCorrect": false
+        },
+        {
+          "option": "Blade Runner",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi az Egyesült Államok legnagyobb állama terület alapján?",
+      "categoryId": 7,
+      "level": 3,
+      "options": [
+        {
+          "option": "Alaszka",
+          "isCorrect": true
+        },
+        {
+          "option": "Texas",
+          "isCorrect": false
+        },
+        {
+          "option": "Kalifornia",
+          "isCorrect": false
+        },
+        {
+          "option": "Florida",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik programozási nyelv használt a weboldalak front-end fejlesztésében?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "JavaScript",
+          "isCorrect": true
+        },
+        {
+          "option": "Python",
+          "isCorrect": false
+        },
+        {
+          "option": "Java",
+          "isCorrect": false
+        },
+        {
+          "option": "C++",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen algoritmus használatos a legtöbb szöveges keresőmotorban?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "PageRank",
+          "isCorrect": true
+        },
+        {
+          "option": "Dijkstra",
+          "isCorrect": false
+        },
+        {
+          "option": "A*",
+          "isCorrect": false
+        },
+        {
+          "option": "Floyd-Warshall",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videojátékban található a 'Loot Box' mechanika?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Overwatch",
+          "isCorrect": true
+        },
+        {
+          "option": "Dark Souls",
+          "isCorrect": false
+        },
+        {
+          "option": "Tetris",
+          "isCorrect": false
+        },
+        {
+          "option": "Pac-Man",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik filozófus írta a 'Kritika a tiszta ész' című munkát?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Immanuel Kant",
+          "isCorrect": true
+        },
+        {
+          "option": "Friedrich Nietzsche",
+          "isCorrect": false
+        },
+        {
+          "option": "Søren Kierkegaard",
+          "isCorrect": false
+        },
+        {
+          "option": "Jean-Paul Sartre",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a második legnagyobb szám a számelméletben?",
+      "categoryId": 4,
+      "level": 4,
+      "options": [
+        {
+          "option": "2^82,589,933 − 1",
+          "isCorrect": true
+        },
+        {
+          "option": "2^31 − 1",
+          "isCorrect": false
+        },
+        {
+          "option": "2^61 − 1",
+          "isCorrect": false
+        },
+        {
+          "option": "2^127 − 1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik művész alkotta meg a 'Szent Márk evangélista' festményt?",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "Caravaggio",
+          "isCorrect": true
+        },
+        {
+          "option": "Vincent van Gogh",
+          "isCorrect": false
+        },
+        {
+          "option": "Pablo Picasso",
+          "isCorrect": false
+        },
+        {
+          "option": "Claude Monet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik film kapta a 'Legjobb film' Oscar-díjat 1994-ben?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Forrest Gump",
+          "isCorrect": true
+        },
+        {
+          "option": "Pulp Fiction",
+          "isCorrect": false
+        },
+        {
+          "option": "The Shawshank Redemption",
+          "isCorrect": false
+        },
+        {
+          "option": "The Lion King",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legnagyobb folyó a világon?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Amazonas",
+          "isCorrect": true
+        },
+        {
+          "option": "Nílus",
+          "isCorrect": false
+        },
+        {
+          "option": "Jangce",
+          "isCorrect": false
+        },
+        {
+          "option": "Mississippi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a leggyakoribb programozási nyelv a webfejlesztésben?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "JavaScript",
+          "isCorrect": true
+        },
+        {
+          "option": "HTML",
+          "isCorrect": false
+        },
+        {
+          "option": "CSS",
+          "isCorrect": false
+        },
+        {
+          "option": "PHP",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a fővárosa Magyarországnak?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Budapest",
+          "isCorrect": true
+        },
+        {
+          "option": "Debrecen",
+          "isCorrect": false
+        },
+        {
+          "option": "Szeged",
+          "isCorrect": false
+        },
+        {
+          "option": "Pécs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik állat a legnagyobb a világon?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Kék bálna",
+          "isCorrect": true
+        },
+        {
+          "option": "Afrikai elefánt",
+          "isCorrect": false
+        },
+        {
+          "option": "Giraffe",
+          "isCorrect": false
+        },
+        {
+          "option": "Hippopotamus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik bolygó a Naprendszer legkisebb bolygója?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Merkúr",
+          "isCorrect": true
+        },
+        {
+          "option": "Mars",
+          "isCorrect": false
+        },
+        {
+          "option": "Föld",
+          "isCorrect": false
+        },
+        {
+          "option": "Vénusz",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik gyümölcs piros, kerek, és gyakran használják a pitékhez?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Alma",
+          "isCorrect": true
+        },
+        {
+          "option": "Banán",
+          "isCorrect": false
+        },
+        {
+          "option": "Szőlő",
+          "isCorrect": false
+        },
+        {
+          "option": "Eper",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legnagyobb óceán a világon?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Csendes-óceán",
+          "isCorrect": true
+        },
+        {
+          "option": "Atlanti-óceán",
+          "isCorrect": false
+        },
+        {
+          "option": "Indiai-óceán",
+          "isCorrect": false
+        },
+        {
+          "option": "Északi-sark-óceán",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hány lába van egy póknak?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "8",
+          "isCorrect": true
+        },
+        {
+          "option": "6",
+          "isCorrect": false
+        },
+        {
+          "option": "4",
+          "isCorrect": false
+        },
+        {
+          "option": "10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legmagasabb hegy a világon?",
+      "categoryId": 7,
+      "level": 1,
+      "options": [
+        {
+          "option": "Mount Everest",
+          "isCorrect": true
+        },
+        {
+          "option": "K2",
+          "isCorrect": false
+        },
+        {
+          "option": "Kangchenjunga",
+          "isCorrect": false
+        },
+        {
+          "option": "Lhotse",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben volt a Holdra szállás?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "1969",
+          "isCorrect": true
+        },
+        {
+          "option": "1972",
+          "isCorrect": false
+        },
+        {
+          "option": "1965",
+          "isCorrect": false
+        },
+        {
+          "option": "1980",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik szín a napraforgó színe?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Sárga",
+          "isCorrect": true
+        },
+        {
+          "option": "Kék",
+          "isCorrect": false
+        },
+        {
+          "option": "Zöld",
+          "isCorrect": false
+        },
+        {
+          "option": "Piros",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a 'Rómeó és Júlia' című drámát?",
+      "categoryId": 5,
+      "level": 2,
+      "options": [
+        {
+          "option": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "option": "Charles Dickens",
+          "isCorrect": false
+        },
+        {
+          "option": "Leo Tolstoy",
+          "isCorrect": false
+        },
+        {
+          "option": "Mark Twain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legkisebb kontinens a világon?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Ausztrália",
+          "isCorrect": true
+        },
+        {
+          "option": "Európa",
+          "isCorrect": false
+        },
+        {
+          "option": "Ázsia",
+          "isCorrect": false
+        },
+        {
+          "option": "Afrika",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi 10 + |-7| ?",
+      "categoryId": 4,
+      "level": 2,
+      "options": [
+        {
+          "option": "17",
+          "isCorrect": true
+        },
+        {
+          "option": "15",
+          "isCorrect": false
+        },
+        {
+          "option": "19",
+          "isCorrect": false
+        },
+        {
+          "option": "20",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a híres felfedező, aki felfedezte Amerikát?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Kolumbusz Kristóf",
+          "isCorrect": true
+        },
+        {
+          "option": "Ferdinand Magellán",
+          "isCorrect": false
+        },
+        {
+          "option": "James Cook",
+          "isCorrect": false
+        },
+        {
+          "option": "Marco Polo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a leggyorsabb állat a világon?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Gepárd",
+          "isCorrect": true
+        },
+        {
+          "option": "Farkas",
+          "isCorrect": false
+        },
+        {
+          "option": "Szarvas",
+          "isCorrect": false
+        },
+        {
+          "option": "Ló",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen színű a zebra csíkja?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Fekete és fehér",
+          "isCorrect": true
+        },
+        {
+          "option": "Barna és fehér",
+          "isCorrect": false
+        },
+        {
+          "option": "Kék és sárga",
+          "isCorrect": false
+        },
+        {
+          "option": "Piros és zöld",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a híres angol tudós, aki a gravitáció törvényét felfedezte?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Isaac Newton",
+          "isCorrect": true
+        },
+        {
+          "option": "Albert Einstein",
+          "isCorrect": false
+        },
+        {
+          "option": "Galileo Galilei",
+          "isCorrect": false
+        },
+        {
+          "option": "Nikola Tesla",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legmagasabb fa a világon?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Óriás vörösfenyő",
+          "isCorrect": true
+        },
+        {
+          "option": "Kisfenyő",
+          "isCorrect": false
+        },
+        {
+          "option": "Bükk",
+          "isCorrect": false
+        },
+        {
+          "option": "Fenyő",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a fő összetevője a legtöbb pékárunak?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Liszt",
+          "isCorrect": true
+        },
+        {
+          "option": "Cukor",
+          "isCorrect": false
+        },
+        {
+          "option": "Só",
+          "isCorrect": false
+        },
+        {
+          "option": "Tej",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legnagyobb szárazföldi állat?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "Afrikai elefánt",
+          "isCorrect": true
+        },
+        {
+          "option": "Szürke bálna",
+          "isCorrect": false
+        },
+        {
+          "option": "Nagyvad",
+          "isCorrect": false
+        },
+        {
+          "option": "Zebra",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen anyag a víz kémiai képlete?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "H2O",
+          "isCorrect": true
+        },
+        {
+          "option": "CO2",
+          "isCorrect": false
+        },
+        {
+          "option": "O2",
+          "isCorrect": false
+        },
+        {
+          "option": "NaCl",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hány kontinens van a Földön?",
+      "categoryId": 7,
+      "level": 2,
+      "options": [
+        {
+          "option": "7",
+          "isCorrect": true
+        },
+        {
+          "option": "6",
+          "isCorrect": false
+        },
+        {
+          "option": "5",
+          "isCorrect": false
+        },
+        {
+          "option": "8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a híres magyar költő, aki a 'Tavaszi Szél Vizet Áraszt' című verset írta?",
+      "categoryId": 5,
+      "level": 2,
+      "options": [
+        {
+          "option": "Petőfi Sándor",
+          "isCorrect": true
+        },
+        {
+          "option": "Arany János",
+          "isCorrect": false
+        },
+        {
+          "option": "Ady Endre",
+          "isCorrect": false
+        },
+        {
+          "option": "Kosztolányi Dezső",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben történt a 1956-os forradalom Magyarországon?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "1956",
+          "isCorrect": true
+        },
+        {
+          "option": "1945",
+          "isCorrect": false
+        },
+        {
+          "option": "1968",
+          "isCorrect": false
+        },
+        {
+          "option": "1970",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a világ első női orvosa?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Elizabeth Blackwell",
+          "isCorrect": true
+        },
+        {
+          "option": "Marie Curie",
+          "isCorrect": false
+        },
+        {
+          "option": "Florence Nightingale",
+          "isCorrect": false
+        },
+        {
+          "option": "Virginia Apgar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik vegyület a víz molekulája?",
+      "categoryId": 7,
+      "level": 3,
+      "options": [
+        {
+          "option": "H2O",
+          "isCorrect": true
+        },
+        {
+          "option": "CO2",
+          "isCorrect": false
+        },
+        {
+          "option": "NaCl",
+          "isCorrect": false
+        },
+        {
+          "option": "O2",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen típusú gép a számítógép?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "Programozható",
+          "isCorrect": true
+        },
+        {
+          "option": "Mechanikus",
+          "isCorrect": false
+        },
+        {
+          "option": "Elektromos",
+          "isCorrect": false
+        },
+        {
+          "option": "Hidraulikus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a leggyakoribb gáz a Föld légkörében?",
+      "categoryId": 7,
+      "level": 3,
+      "options": [
+        {
+          "option": "Nitrogén",
+          "isCorrect": true
+        },
+        {
+          "option": "Oxigén",
+          "isCorrect": false
+        },
+        {
+          "option": "Szén-dioxid",
+          "isCorrect": false
+        },
+        {
+          "option": "Hidrogén",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik matematikai képlet a Pithagorasz-tétel?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "a² + b² = c²",
+          "isCorrect": true
+        },
+        {
+          "option": "a + b = c",
+          "isCorrect": false
+        },
+        {
+          "option": "a² - b² = c",
+          "isCorrect": false
+        },
+        {
+          "option": "a/b = c",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen elv alapján működik a légkondicionáló?",
+      "categoryId": 7,
+      "level": 3,
+      "options": [
+        {
+          "option": "Termodinamikai elv",
+          "isCorrect": true
+        },
+        {
+          "option": "Mechanikai elv",
+          "isCorrect": false
+        },
+        {
+          "option": "Elektromágneses elv",
+          "isCorrect": false
+        },
+        {
+          "option": "Hidraulikus elv",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a híres matematikus, aki a számítógép tudományát megalapozta?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "Alan Turing",
+          "isCorrect": true
+        },
+        {
+          "option": "Isaac Newton",
+          "isCorrect": false
+        },
+        {
+          "option": "Carl Friedrich Gauss",
+          "isCorrect": false
+        },
+        {
+          "option": "Bernhard Riemann",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben alapították a UNESCO-t?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "1945",
+          "isCorrect": true
+        },
+        {
+          "option": "1950",
+          "isCorrect": false
+        },
+        {
+          "option": "1960",
+          "isCorrect": false
+        },
+        {
+          "option": "1975",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a fővárosa Izraelnek?",
+      "categoryId": 7,
+      "level": 3,
+      "options": [
+        {
+          "option": "Jeruzsálem",
+          "isCorrect": true
+        },
+        {
+          "option": "Tel-Aviv",
+          "isCorrect": false
+        },
+        {
+          "option": "Haifa",
+          "isCorrect": false
+        },
+        {
+          "option": "Eilat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen típusú állat a delfin?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Emlős",
+          "isCorrect": true
+        },
+        {
+          "option": "Hüllő",
+          "isCorrect": false
+        },
+        {
+          "option": "Kétéltű",
+          "isCorrect": false
+        },
+        {
+          "option": "Hal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik nyelven beszélnek a legtöbben a világon?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Mandarin",
+          "isCorrect": true
+        },
+        {
+          "option": "Angol",
+          "isCorrect": false
+        },
+        {
+          "option": "Spanyol",
+          "isCorrect": false
+        },
+        {
+          "option": "Hindi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a tehenek legfontosabb tápanyaga?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Fű",
+          "isCorrect": true
+        },
+        {
+          "option": "Gabona",
+          "isCorrect": false
+        },
+        {
+          "option": "Zöldség",
+          "isCorrect": false
+        },
+        {
+          "option": "Gyümölcs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres tudós felfedezte az elektromágnesességet?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "James Clerk Maxwell",
+          "isCorrect": true
+        },
+        {
+          "option": "Albert Einstein",
+          "isCorrect": false
+        },
+        {
+          "option": "Nikola Tesla",
+          "isCorrect": false
+        },
+        {
+          "option": "Michael Faraday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legkisebb csont az emberi testben?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Lábujjcsont",
+          "isCorrect": true
+        },
+        {
+          "option": "Fülcsont",
+          "isCorrect": false
+        },
+        {
+          "option": "Kézcsont",
+          "isCorrect": false
+        },
+        {
+          "option": "Térdcsont",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres művész festette a 'Mona Lisát'?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Leonardo da Vinci",
+          "isCorrect": true
+        },
+        {
+          "option": "Vincent van Gogh",
+          "isCorrect": false
+        },
+        {
+          "option": "Pablo Picasso",
+          "isCorrect": false
+        },
+        {
+          "option": "Michelangelo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi az a jelenség, amikor a fény megtörik a víz felszínén?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Refrakció",
+          "isCorrect": true
+        },
+        {
+          "option": "Reflexió",
+          "isCorrect": false
+        },
+        {
+          "option": "Diffrakció",
+          "isCorrect": false
+        },
+        {
+          "option": "Abszorpció",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legnagyobb aktív vulkán a világon?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Mauna Loa",
+          "isCorrect": true
+        },
+        {
+          "option": "Mount St. Helens",
+          "isCorrect": false
+        },
+        {
+          "option": "Kilimandzsáró",
+          "isCorrect": false
+        },
+        {
+          "option": "Mount Fuji",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik képes a leggyorsabb adatátvitelre?",
+      "level": 1,
+      "categoryId": 1,
       "options": [
         {
           "option": "M.2 NVme SDD",
@@ -75,6 +3005,7 @@
     },
     {
       "question": "Ki találta fel a telefont?",
+      "categoryId": 3,
       "level": 1,
       "options": [
         {
@@ -97,6 +3028,7 @@
     },
     {
       "question": "Mikor jelent meg az első okos telefon?",
+      "categoryId": 1,
       "level": 1,
       "options": [
         {
@@ -119,6 +3051,7 @@
     },
     {
       "question": "Hány lapból áll a Magyarkártya?",
+      "categoryId": 5,
       "level": 1,
       "options": [
         {
@@ -141,6 +3074,7 @@
     },
     {
       "question": "Melyik személy található a húszezresen?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -163,6 +3097,7 @@
     },
     {
       "question": "Melyik rövidítés felel meg a számítógép Memóriájának megnevezésére?",
+      "categoryId": 1,
       "level": 1,
       "options": [
         {
@@ -185,6 +3120,7 @@
     },
     {
       "question": "Mikor jelent meg a Windows 10?",
+      "categoryId": 1,
       "level": 1,
       "options": [
         {
@@ -207,6 +3143,7 @@
     },
     {
       "question": "Mikor fedezte fel Kolumbusz Kristóf Amerikát?",
+      "categoryId": 3,
       "level": 1,
       "options": [
         {
@@ -229,6 +3166,7 @@
     },
     {
       "question": "Melyik ország építette a híres 'Nagy Falat'?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -251,6 +3189,7 @@
     },
     {
       "question": "Mi a Föld legnagyobb óceánja?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -273,6 +3212,7 @@
     },
     {
       "question": "Melyik ország fővárosa Párizs?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -295,6 +3235,7 @@
     },
     {
       "question": "Melyik bolygó a Naprendszer legnagyobb bolygója?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -317,6 +3258,7 @@
     },
     {
       "question": "Ki írta a 'Tüskevár' című könyvet?",
+      "categoryId": 5,
       "level": 1,
       "options": [
         {
@@ -339,6 +3281,7 @@
     },
     {
       "question": "Melyik évben landolt először ember a Holdon?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -361,6 +3304,7 @@
     },
     {
       "question": "Melyik országban található a Machu Picchu?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -383,6 +3327,7 @@
     },
     {
       "question": "Mi a fővárosa Magyarországnak?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -405,6 +3350,7 @@
     },
     {
       "question": "Melyik a leghosszabb folyó a világon?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -427,6 +3373,7 @@
     },
     {
       "question": "Melyik vitamin segíti a kalcium felszívódását?",
+      "categoryId": 3,
       "level": 1,
       "options": [
         {
@@ -449,6 +3396,7 @@
     },
     {
       "question": "Milyen színű a Napfény az űrből nézve?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -471,6 +3419,7 @@
     },
     {
       "question": "Mi a legnagyobb szárazföldi állat?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -493,6 +3442,7 @@
     },
     {
       "question": "Melyik bolygón található az Olympus Mons nevű vulkán?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -515,6 +3465,7 @@
     },
     {
       "question": "Melyik ország található az Andok hegységben?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -537,6 +3488,7 @@
     },
     {
       "question": "Melyik kémiai elem szimbóluma az O?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -559,6 +3511,7 @@
     },
     {
       "question": "Melyik népszerű közösségi oldalt alapította Mark Zuckerberg?",
+      "categoryId": 1,
       "level": 1,
       "options": [
         {
@@ -581,6 +3534,7 @@
     },
     {
       "question": "Mi a legnagyobb szerv az emberi testben?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -603,6 +3557,7 @@
     },
     {
       "question": "Melyik állat híres arról, hogy rendkívül lassan mozog?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -625,6 +3580,7 @@
     },
     {
       "question": "Melyik kontinens területén található Ausztrália?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -647,6 +3603,7 @@
     },
     {
       "question": "Melyik a világ legmagasabb épülete 2024-ben?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -669,6 +3626,7 @@
     },
     {
       "question": "Milyen típusú állat a koala?",
+      "categoryId": 7,
       "level": 1,
       "options": [
         {
@@ -691,6 +3649,7 @@
     },
     {
       "question": "Melyik kontinensen található a Szahara sivatag?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -713,6 +3672,7 @@
     },
     {
       "question": "Ki volt a Római Birodalom első császára?",
+      "categoryId": 3,
       "level": 2,
       "options": [
         {
@@ -735,6 +3695,7 @@
     },
     {
       "question": "Melyik évben érte el az ember először a Hold felszínét?",
+      "categoryId": 3,
       "level": 2,
       "options": [
         {
@@ -757,6 +3718,7 @@
     },
     {
       "question": "Melyik a leghidegebb bolygó a Naprendszerben?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -779,6 +3741,7 @@
     },
     {
       "question": "Melyik óceán a legmélyebb a világon?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -801,6 +3764,7 @@
     },
     {
       "question": "Melyik ország a legnagyobb területű a világon?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -823,6 +3787,7 @@
     },
     {
       "question": "Melyik görög isten volt a tenger istene?",
+      "categoryId": 5,
       "level": 2,
       "options": [
         {
@@ -845,6 +3810,7 @@
     },
     {
       "question": "Melyik filmben szerepel az ikonikus mondat: 'Hasta la vista, baby!'?",
+      "categoryId": 6,
       "level": 2,
       "options": [
         {
@@ -867,6 +3833,7 @@
     },
     {
       "question": "Melyik elem vegyjele az 'Au'?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -889,6 +3856,7 @@
     },
     {
       "question": "Ki írta a 'Büszkeség és balítélet' című regényt?",
+      "categoryId": 5,
       "level": 2,
       "options": [
         {
@@ -911,6 +3879,7 @@
     },
     {
       "question": "Hány napig tart egy év a Földön?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -933,6 +3902,7 @@
     },
     {
       "question": "Melyik háború során zajlott a normandiai partraszállás?",
+      "categoryId": 3,
       "level": 2,
       "options": [
         {
@@ -955,6 +3925,7 @@
     },
     {
       "question": "Melyik kémiai elem szimbóluma a 'Fe'?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -977,6 +3948,7 @@
     },
     {
       "question": "Ki komponálta a Für Elise című zeneművet?",
+      "categoryId": 5,
       "level": 2,
       "options": [
         {
@@ -999,6 +3971,7 @@
     },
     {
       "question": "Melyik állat a legnagyobb ragadozó a szárazföldön?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1021,6 +3994,7 @@
     },
     {
       "question": "Melyik festő alkotta meg a 'Mona Lisát'?",
+      "categoryId": 5,
       "level": 2,
       "options": [
         {
@@ -1043,6 +4017,7 @@
     },
     {
       "question": "Hány fő szereplője van a 'Jóbarátok' című sorozatnak?",
+      "categoryId": 6,
       "level": 2,
       "options": [
         {
@@ -1065,6 +4040,7 @@
     },
     {
       "question": "Melyik ország fővárosa Párizs?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1087,6 +4063,7 @@
     },
     {
       "question": "Milyen sportágban szerzett Michael Phelps olimpiai aranyérmeket?",
+      "categoryId": 3,
       "level": 2,
       "options": [
         {
@@ -1109,6 +4086,7 @@
     },
     {
       "question": "Ki volt Nagy Sándor (Alexandrosz) történelmi alak?",
+      "categoryId": 3,
       "level": 2,
       "options": [
         {
@@ -1131,6 +4109,7 @@
     },
     {
       "question": "Hány játékos van egy futballcsapatban a pályán?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1153,6 +4132,7 @@
     },
     {
       "question": "Melyik kontinens lakói használnak leggyakrabban pálcikákat az étkezéshez?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1175,6 +4155,7 @@
     },
     {
       "question": "Mi a hivatalos nyelv Brazíliában?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1197,6 +4178,7 @@
     },
     {
       "question": "Ki írta a 'Háború és béke' című könyvet?",
+      "categoryId": 6,
       "level": 2,
       "options": [
         {
@@ -1219,6 +4201,7 @@
     },
     {
       "question": "Milyen típusú energiaforrás a szél?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1241,6 +4224,7 @@
     },
     {
       "question": "Ki volt a világhírű fizikus, aki kidolgozta a relativitáselméletet?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1262,29 +4246,8 @@
       ]
     },
     {
-      "question": "Hány lábujja van egy átlagos embernek?",
-      "level": 2,
-      "options": [
-        {
-          "option": "10",
-          "isCorrect": true
-        },
-        {
-          "option": "8",
-          "isCorrect": false
-        },
-        {
-          "option": "12",
-          "isCorrect": false
-        },
-        {
-          "option": "9",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "question": "Melyik bolygó van a legközelebb a Naphoz?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1307,6 +4270,7 @@
     },
     {
       "question": "Milyen színnel jelölik a legmelegebb csillagokat?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1329,6 +4293,7 @@
     },
     {
       "question": "Melyik fém vezeti a legjobban az áramot?",
+      "categoryId": 7,
       "level": 2,
       "options": [
         {
@@ -1351,6 +4316,7 @@
     },
     {
       "question": "Melyik kémiai elemnek van a legnagyobb atommagja?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1373,6 +4339,7 @@
     },
     {
       "question": "Melyik híres matematikus alapította a valószínűség-számítást?",
+      "categoryId": 4,
       "level": 3,
       "options": [
         {
@@ -1395,6 +4362,7 @@
     },
     {
       "question": "Melyik a világ legnagyobb sós vizű tava?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1417,6 +4385,7 @@
     },
     {
       "question": "Ki írta a „Don Quijote” című regényt?",
+      "categoryId": 5,
       "level": 3,
       "options": [
         {
@@ -1439,6 +4408,7 @@
     },
     {
       "question": "Melyik birodalom alapítója volt Dzsingisz kán?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
@@ -1461,6 +4431,7 @@
     },
     {
       "question": "Melyik ország ad otthont a Machu Picchunak?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1483,6 +4454,7 @@
     },
     {
       "question": "Mi a színképzési hiba másik neve az optikában?",
+      "categoryId": 8,
       "level": 3,
       "options": [
         {
@@ -1505,6 +4477,7 @@
     },
     {
       "question": "Hány kromoszómája van egy emberi sejtnek?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1526,29 +4499,8 @@
       ]
     },
     {
-      "question": "Ki alkotta meg a relativitáselméletet?",
-      "level": 3,
-      "options": [
-        {
-          "option": "Albert Einstein",
-          "isCorrect": true
-        },
-        {
-          "option": "Niels Bohr",
-          "isCorrect": false
-        },
-        {
-          "option": "Max Planck",
-          "isCorrect": false
-        },
-        {
-          "option": "Galileo Galilei",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "question": "Melyik város található a híres 'Colosseum' amfiteátruma?",
+      "question": "Melyik városban található a híres 'Colosseum' amfiteátruma?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
@@ -1571,6 +4523,7 @@
     },
     {
       "question": "Melyik évben történt a Watergate-botrány?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
@@ -1593,6 +4546,7 @@
     },
     {
       "question": "Ki komponálta a 'Nessun Dorma' áriát?",
+      "categoryId": 5,
       "level": 3,
       "options": [
         {
@@ -1615,6 +4569,7 @@
     },
     {
       "question": "Melyik állat volt a főszereplő A. A. Milne híres meséjében?",
+      "categoryId": 6,
       "level": 3,
       "options": [
         {
@@ -1637,6 +4592,7 @@
     },
     {
       "question": "Melyik fizikai mennyiség mértékegysége a volt?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1659,6 +4615,7 @@
     },
     {
       "question": "Ki volt az első nő, aki Nobel-díjat nyert?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
@@ -1681,6 +4638,7 @@
     },
     {
       "question": "Mi a legnagyobb kontinens a Földön?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1703,6 +4661,7 @@
     },
     {
       "question": "Mi az E = mc² képletben az 'm' betű jelentése?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1724,29 +4683,31 @@
       ]
     },
     {
-      "question": "Melyik évben fejeződött be a második világháború?",
+      "question": "Mettől meddig tartott az első világháború?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
-          "option": "1945",
+          "option": "1914-1918",
           "isCorrect": true
         },
         {
-          "option": "1939",
+          "option": "1914-1920",
           "isCorrect": false
         },
         {
-          "option": "1944",
+          "option": "1912-1919",
           "isCorrect": false
         },
         {
-          "option": "1950",
+          "option": "1915-1920",
           "isCorrect": false
         }
       ]
     },
     {
       "question": "Hány pár bordája van egy átlagos embernek?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1769,6 +4730,7 @@
     },
     {
       "question": "Ki találta fel a telefonkészüléket?",
+      "categoryId": 1,
       "level": 3,
       "options": [
         {
@@ -1791,6 +4753,7 @@
     },
     {
       "question": "Melyik évben tették le a berlini falat?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
@@ -1813,6 +4776,7 @@
     },
     {
       "question": "Ki volt Nagy Sándor tanítója?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
@@ -1834,29 +4798,8 @@
       ]
     },
     {
-      "question": "Melyik kémiai elem a 'Fe' vegyjele?",
-      "level": 3,
-      "options": [
-        {
-          "option": "Vas",
-          "isCorrect": true
-        },
-        {
-          "option": "Fluor",
-          "isCorrect": false
-        },
-        {
-          "option": "Foszfor",
-          "isCorrect": false
-        },
-        {
-          "option": "Francium",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "question": "Hány bolygó található a Naprendszerben (a Plútó nélkül)?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1878,29 +4821,8 @@
       ]
     },
     {
-      "question": "Ki volt az első amerikai elnök?",
-      "level": 3,
-      "options": [
-        {
-          "option": "George Washington",
-          "isCorrect": true
-        },
-        {
-          "option": "Thomas Jefferson",
-          "isCorrect": false
-        },
-        {
-          "option": "Abraham Lincoln",
-          "isCorrect": false
-        },
-        {
-          "option": "John Adams",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "question": "Melyik ország található déli szomszédjaként az Egyesült Államoknak?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1923,6 +4845,7 @@
     },
     {
       "question": "Melyik tenger található Olaszország nyugati partjánál?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1945,6 +4868,7 @@
     },
     {
       "question": "Melyik ország lakói használják a 'yen' valutát?",
+      "categoryId": 7,
       "level": 3,
       "options": [
         {
@@ -1967,6 +4891,7 @@
     },
     {
       "question": "Ki írta az 'Odüsszeia' című eposzt?",
+      "categoryId": 5,
       "level": 3,
       "options": [
         {
@@ -1989,6 +4914,7 @@
     },
     {
       "question": "Melyik ókori város romjai találhatók a mai Törökországban, és híres a könyvtáráról?",
+      "categoryId": 3,
       "level": 3,
       "options": [
         {
@@ -2011,6 +4937,7 @@
     },
     {
       "question": "Melyik elem periódusos rendszeren kívüli izotópja a legstabilabb?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2033,6 +4960,7 @@
     },
     {
       "question": "Melyik bolygón található a Naprendszer legmagasabb hegye, az Olympus Mons?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2055,6 +4983,7 @@
     },
     {
       "question": "Mi a Neumann-elv a számítástechnika területén?",
+      "categoryId": 1,
       "level": 4,
       "options": [
         {
@@ -2077,6 +5006,7 @@
     },
     {
       "question": "Melyik királyi dinasztia uralkodott Franciaországban a leghosszabb ideig?",
+      "categoryId": 3,
       "level": 4,
       "options": [
         {
@@ -2099,6 +5029,7 @@
     },
     {
       "question": "Mi a Schrödinger-egyenlet szerepe a kvantummechanikában?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2121,6 +5052,7 @@
     },
     {
       "question": "Melyik építész tervezte a sydney-i operaházat?",
+      "categoryId": 3,
       "level": 4,
       "options": [
         {
@@ -2143,6 +5075,7 @@
     },
     {
       "question": "Melyik ország vezette be először a közvetlen jövedelemadót?",
+      "categoryId": 3,
       "level": 4,
       "options": [
         {
@@ -2165,6 +5098,7 @@
     },
     {
       "question": "Melyik a világ leghosszabb vasúti alagútja?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2187,6 +5121,7 @@
     },
     {
       "question": "Ki írta a „Gödel, Escher, Bach” című könyvet?",
+      "categoryId": 5,
       "level": 4,
       "options": [
         {
@@ -2209,6 +5144,7 @@
     },
     {
       "question": "Melyik fizikus fejlesztette ki a kvantum-számítástechnikát megalapozó algoritmust?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2231,6 +5167,7 @@
     },
     {
       "question": "Melyik űrszonda volt az első, amely elérte a Naprendszer határát?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2253,6 +5190,7 @@
     },
     {
       "question": "Mi a Goldbach-sejtés az elméleti matematikában?",
+      "categoryId": 4,
       "level": 4,
       "options": [
         {
@@ -2275,6 +5213,7 @@
     },
     {
       "question": "Melyik biológus fogalmazta meg a természetes szelekció elméletét Darwin mellett?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2297,6 +5236,7 @@
     },
     {
       "question": "Melyik ókori filozófus fogalmazta meg a lélek három részre osztásának elméletét?",
+      "categoryId": 3,
       "level": 4,
       "options": [
         {
@@ -2319,6 +5259,7 @@
     },
     {
       "question": "Mi a Hubble állandó mérése által megállapított tényező a világegyetem tágulásával kapcsolatban?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2341,6 +5282,7 @@
     },
     {
       "question": "Ki írta a „Leviatán” című filozófiai művet?",
+      "categoryId": 5,
       "level": 4,
       "options": [
         {
@@ -2363,6 +5305,7 @@
     },
     {
       "question": "Mi a legnagyobb ismert prímszám a 2024-es állás szerint?",
+      "categoryId": 4,
       "level": 4,
       "options": [
         {
@@ -2385,6 +5328,7 @@
     },
     {
       "question": "Melyik ókori birodalom volt híres az első kodifikált jogrendszerről, amelyet Hammurabi király vezetett be?",
+      "categoryId": 3,
       "level": 4,
       "options": [
         {
@@ -2407,6 +5351,7 @@
     },
     {
       "question": "Melyik anyagot használják a modern kvantumszámítógépek qubitjeinek fizikai megvalósítására?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2429,6 +5374,7 @@
     },
     {
       "question": "Ki írta az 1919-es „General Theory of Relativity” című tudományos munkát?",
+      "categoryId": 5,
       "level": 4,
       "options": [
         {
@@ -2451,6 +5397,7 @@
     },
     {
       "question": "Melyik híres zeneszerző írta meg az „Eroica” szimfóniát?",
+      "categoryId": 5,
       "level": 4,
       "options": [
         {
@@ -2473,6 +5420,7 @@
     },
     {
       "question": "Milyen műveletet hajt végre egy Fourier-transzformáció a matematikában?",
+      "categoryId": 4,
       "level": 4,
       "options": [
         {
@@ -2495,6 +5443,7 @@
     },
     {
       "question": "Melyik űrhajó szállt le először a Holdon?",
+      "categoryId": 3,
       "level": 4,
       "options": [
         {
@@ -2517,6 +5466,7 @@
     },
     {
       "question": "Melyik híres matematikus bizonyította be az utolsó Fermat-sejtést?",
+      "categoryId": 4,
       "level": 4,
       "options": [
         {
@@ -2539,6 +5489,7 @@
     },
     {
       "question": "Mi az emberi DNS-ben található nukleotidok négy fő típusa?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2561,6 +5512,7 @@
     },
     {
       "question": "Melyik nyelvet használták a régi római jogrendszer kidolgozására?",
+      "categoryId": 3,
       "level": 4,
       "options": [
         {
@@ -2583,6 +5535,7 @@
     },
     {
       "question": "Melyik tudós fejtette meg az első DNS szerkezetét, ami kettős spirál alakú?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2605,6 +5558,7 @@
     },
     {
       "question": "Melyik matematikai probléma megoldását bizonyította Andrew Wiles 1994-ben?",
+      "categoryId": 4,
       "level": 4,
       "options": [
         {
@@ -2627,6 +5581,7 @@
     },
     {
       "question": "Mi volt az első részecske, amelyet az 1950-es években fedeztek fel a kvarkmodell előtt?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2649,6 +5604,7 @@
     },
     {
       "question": "Melyik híres filozófus írta a „Critique of Pure Reason” (A tiszta ész kritikája) című művet?",
+      "categoryId": 7,
       "level": 4,
       "options": [
         {
@@ -2665,6 +5621,1898 @@
         },
         {
           "option": "David Hume",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres filozófus írta a „Critique of Pure Reason” (A tiszta ész kritikája) című művet?",
+      "categoryId": 7,
+      "level": 4,
+      "options": [
+        {
+          "option": "Immanuel Kant",
+          "isCorrect": true
+        },
+        {
+          "option": "René Descartes",
+          "isCorrect": false
+        },
+        {
+          "option": "Friedrich Nietzsche",
+          "isCorrect": false
+        },
+        {
+          "option": "David Hume",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mit csinál az Alt + F4 billentyűkombináció?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": "Bezárja az adott ablakot.",
+          "isCorrect": true
+        },
+        {
+          "option": "Screenshotot készít.",
+          "isCorrect": false
+        },
+        {
+          "option": "A következő betű nagy betű lesz.",
+          "isCorrect": false
+        },
+        {
+          "option": "Megnyit egy új, üres ablakot.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Az alábbiak közül melyik IKT eszköz?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": "Számítógép",
+          "isCorrect": true
+        },
+        {
+          "option": "Hangkártya",
+          "isCorrect": false
+        },
+        {
+          "option": "Processzor",
+          "isCorrect": false
+        },
+        {
+          "option": "Billentyűzet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mik találhatók az alaplapon?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": "Processzor foglalat, memóriahelyek, PCI csatlakozók",
+          "isCorrect": true
+        },
+        {
+          "option": "Processzor foglalat, USB csatlakozó, toner",
+          "isCorrect": false
+        },
+        {
+          "option": "Processzor foglalat, órajel generátor, tintapatron",
+          "isCorrect": false
+        },
+        {
+          "option": "Processzor foglalat, memóriahelyek, USB csatlakozó",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A felsoroltak közül melyik periféria?",
+      "categoryId": 1,
+      "level": 1,
+      "options": [
+        {
+          "option": "Egér",
+          "isCorrect": true
+        },
+        {
+          "option": "Processzor",
+          "isCorrect": false
+        },
+        {
+          "option": "RAM",
+          "isCorrect": false
+        },
+        {
+          "option": "Memóriakártya",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A felsoroltakból melyik adattároló eszköz?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "Winchester",
+          "isCorrect": true
+        },
+        {
+          "option": "Plotter",
+          "isCorrect": false
+        },
+        {
+          "option": "Nyomtató",
+          "isCorrect": false
+        },
+        {
+          "option": "Ventillátor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyikkel egyenlő 20 GB?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "20971520 KB",
+          "isCorrect": true
+        },
+        {
+          "option": "0,2 TB",
+          "isCorrect": false
+        },
+        {
+          "option": "20000 MB",
+          "isCorrect": false
+        },
+        {
+          "option": "1024 MB",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Válaszd ki a hordozható adattárolót!",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "RAM memória",
+          "isCorrect": true
+        },
+        {
+          "option": "Winchester",
+          "isCorrect": false
+        },
+        {
+          "option": "CD",
+          "isCorrect": false
+        },
+        {
+          "option": "DVD",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik grafikus felületet használja az Ubuntu?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "Gnome",
+          "isCorrect": true
+        },
+        {
+          "option": "KDE",
+          "isCorrect": false
+        },
+        {
+          "option": "Unity",
+          "isCorrect": false
+        },
+        {
+          "option": "Mate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik böngésző nyílt forráskodú?",
+      "categoryId": 1,
+      "level": 2,
+      "options": [
+        {
+          "option": "Firefox",
+          "isCorrect": true
+        },
+        {
+          "option": "Edge",
+          "isCorrect": false
+        },
+        {
+          "option": "Chrome",
+          "isCorrect": false
+        },
+        {
+          "option": "Safari",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legkisebb CAT szabvány, amely támogatja a 1 Gbps sebességet?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "CAT5e",
+          "isCorrect": true
+        },
+        {
+          "option": "CAT5f",
+          "isCorrect": false
+        },
+        {
+          "option": "CAT4",
+          "isCorrect": false
+        },
+        {
+          "option": "CAT6c",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik fájlkiterjesztést használják veszteségmentes audiófájlkokhoz?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": ".flac",
+          "isCorrect": true
+        },
+        {
+          "option": ".mp3",
+          "isCorrect": false
+        },
+        {
+          "option": ".wav",
+          "isCorrect": false
+        },
+        {
+          "option": ".aiff",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen típusú fájl a jpeg?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "Kép",
+          "isCorrect": true
+        },
+        {
+          "option": "Videó",
+          "isCorrect": false
+        },
+        {
+          "option": "Szöveg",
+          "isCorrect": false
+        },
+        {
+          "option": "Egyik sem",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a Microsoft vezérigazgatója 2022-ben?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "Satya Nadella",
+          "isCorrect": true
+        },
+        {
+          "option": "Bill Gates",
+          "isCorrect": false
+        },
+        {
+          "option": "Brad Smith",
+          "isCorrect": false
+        },
+        {
+          "option": "Paul Allen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik művelet jelöli a maradékképzést?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "mod",
+          "isCorrect": true
+        },
+        {
+          "option": "div",
+          "isCorrect": false
+        },
+        {
+          "option": "meta",
+          "isCorrect": false
+        },
+        {
+          "option": "ads",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik programozási nyelvet találta fel a képen látható férfi?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Anders_Hejlsberg.jpg/250px-Anders_Hejlsberg.jpg",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "C#",
+          "isCorrect": true
+        },
+        {
+          "option": "Java",
+          "isCorrect": false
+        },
+        {
+          "option": "C++",
+          "isCorrect": false
+        },
+        {
+          "option": "Python",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik nem egy ciklus Pythonban?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "while do",
+          "isCorrect": true
+        },
+        {
+          "option": "do while",
+          "isCorrect": false
+        },
+        {
+          "option": "while",
+          "isCorrect": false
+        },
+        {
+          "option": "for",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik nem objektumorientált programozási nyelv?",
+      "categoryId": 1,
+      "level": 3,
+      "options": [
+        {
+          "option": "Assembly",
+          "isCorrect": true
+        },
+        {
+          "option": "Java",
+          "isCorrect": false
+        },
+        {
+          "option": "C++",
+          "isCorrect": false
+        },
+        {
+          "option": "C#",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik céget nem Steve Jobs alapította?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Beats",
+          "isCorrect": true
+        },
+        {
+          "option": "Apple",
+          "isCorrect": false
+        },
+        {
+          "option": "NeXT",
+          "isCorrect": false
+        },
+        {
+          "option": "Pixar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Kit ábrázol a kép?",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/62d599ede3ff49f348f9b9b4/0x0.jpg?format=jpg&crop=821,821,x155,y340,safe&height=416&width=416&fit=bounds",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Bill Gates",
+          "isCorrect": true
+        },
+        {
+          "option": "Steve Jobs",
+          "isCorrect": false
+        },
+        {
+          "option": "Jared Spataro",
+          "isCorrect": false
+        },
+        {
+          "option": "Scott Guthrie",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a B-trees adatstruktúra fő előnye?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Hatékony disk I/O műveletekhez",
+          "isCorrect": true
+        },
+        {
+          "option": "Könnyen implementálható a tömbökben",
+          "isCorrect": false
+        },
+        {
+          "option": "Képes kezelni a dinamikus adatokat",
+          "isCorrect": false
+        },
+        {
+          "option": "Csak egyedi kulcsok tárolására alkalmas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a legfőbb különbség a TCP és az UDP között?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "A TCP biztosítja az adatátvitel integritását, míg az UDP nem.",
+          "isCorrect": true
+        },
+        {
+          "option": "Az UDP kapcsolat-orientált, míg a TCP nem.",
+          "isCorrect": false
+        },
+        {
+          "option": "A TCP gyorsabb, mint az UDP.",
+          "isCorrect": false
+        },
+        {
+          "option": "Az UDP mindig megbízhatóbb, mint a TCP.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a célja a hash függvényeknek?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Az adatok egyedi azonosítóvá alakítása.",
+          "isCorrect": true
+        },
+        {
+          "option": "Az adatok titkosítása.",
+          "isCorrect": false
+        },
+        {
+          "option": "Az adatok tárolási helyének meghatározása.",
+          "isCorrect": false
+        },
+        {
+          "option": "Az adatok méretének csökkentése.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor fog lefutni az első 'if' függvény?",
+      "image": "https://www.codingcreativo.it/wp-content/uploads/2022/06/examples-while-python.jpg",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Ha az 'n' nevű változó nem egyenlő 0-val, illetve, ha az 'i' kisebb 10-nél.",
+          "isCorrect": true
+        },
+        {
+          "option": "Ha az 'i' nagyobb 10-nél.",
+          "isCorrect": false
+        },
+        {
+          "option": "Ha az 'n' nevű változó nem egyenlő 0-val, illetve, ha osztva 2-vel, 0-t kapunk.",
+          "isCorrect": false
+        },
+        {
+          "option": "Ha az 'n' nevű változó nem egyenlő 0-val, akkor is, ha 'i' nagyobb 10-nél.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a C# 'using' kulcsszavának fő szerepe?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Erőforrások, például fájlok automatikus felszabadítása.",
+          "isCorrect": true
+        },
+        {
+          "option": "Az osztályok öröklődésének megakadályozása.",
+          "isCorrect": false
+        },
+        {
+          "option": "A változók hatókörének kiterjesztése.",
+          "isCorrect": false
+        },
+        {
+          "option": "A szálak kezelésének megkönnyítése.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a C# 'async' és 'await' kulcsszavainak célja?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "Az aszinkron programozás támogatása.",
+          "isCorrect": true
+        },
+        {
+          "option": "A program futásidejének csökkentése.",
+          "isCorrect": false
+        },
+        {
+          "option": "Az osztályok több szálon való végrehajtását lehetővé tevő mechanizmus.",
+          "isCorrect": false
+        },
+        {
+          "option": "A változók típusainak dinamikus meghatározása.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik kulcsszó használható egy osztály metódusának védelmére, hogy csak az osztályon belül legyen elérhető?",
+      "categoryId": 1,
+      "level": 4,
+      "options": [
+        {
+          "option": "private",
+          "isCorrect": true
+        },
+        {
+          "option": "public",
+          "isCorrect": false
+        },
+        {
+          "option": "internal",
+          "isCorrect": false
+        },
+        {
+          "option": "protected",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A következő főellenségek melyik játékban szerepelnek? Moon Lord, Duke Fishron, Plantera",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "Terraria",
+          "isCorrect": true
+        },
+        {
+          "option": "Minecraft",
+          "isCorrect": false
+        },
+        {
+          "option": "Hollow Knight",
+          "isCorrect": false
+        },
+        {
+          "option": "Stardew Valley",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "LoL-ban micsoda Vayne passzívja?",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "Silver Bolts",
+          "isCorrect": true
+        },
+        {
+          "option": "Love Tap",
+          "isCorrect": false
+        },
+        {
+          "option": "Denting Blows",
+          "isCorrect": false
+        },
+        {
+          "option": "Blood Hunt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi volt a legutóbbi Minecraft fejlesztés neve? (2024. október)",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "Tricky Trials",
+          "isCorrect": true
+        },
+        {
+          "option": "Trails & Tales",
+          "isCorrect": false
+        },
+        {
+          "option": "Village & Pillage",
+          "isCorrect": false
+        },
+        {
+          "option": "Nether Update",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen szörnyek jelennek meg az Until Dawn nevű játékban?",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "Wendigók",
+          "isCorrect": true
+        },
+        {
+          "option": "Skinwalkerek",
+          "isCorrect": false
+        },
+        {
+          "option": "Zombik",
+          "isCorrect": false
+        },
+        {
+          "option": "Yetik",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor jelent meg a PS4 konzol Európában?",
+      "categoryId": 2,
+      "level": 1,
+      "options": [
+        {
+          "option": "2013. november 29.",
+          "isCorrect": true
+        },
+        {
+          "option": "2014. augusztus 8.",
+          "isCorrect": false
+        },
+        {
+          "option": "2012. január 1.",
+          "isCorrect": false
+        },
+        {
+          "option": "2015. március 15.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik AC játék a legelső kronológiai sorrendben?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "AC Odyssey",
+          "isCorrect": true
+        },
+        {
+          "option": "AC Origins",
+          "isCorrect": false
+        },
+        {
+          "option": "AC Valhalla",
+          "isCorrect": false
+        },
+        {
+          "option": "AC Unity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ha valaminek az eléréséért egy játékos ismétlődően ugyanazt a feladatot végzi el, akkor ő:",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Grindol",
+          "isCorrect": true
+        },
+        {
+          "option": "Craftol",
+          "isCorrect": false
+        },
+        {
+          "option": "Campel",
+          "isCorrect": false
+        },
+        {
+          "option": "Tryhardol",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik játék látható a képen?",
+      "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2019/11/49-seconds-match-victory-apex-legends-glitch-bug-reddit.jpg",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Apex Legends",
+          "isCorrect": true
+        },
+        {
+          "option": "Counter-Strike 2",
+          "isCorrect": false
+        },
+        {
+          "option": "Rainbow Six Siege",
+          "isCorrect": false
+        },
+        {
+          "option": "Overwatch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Az alábbiak közül melyik egy híres PlayStation-figura?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Crash Bandicoot",
+          "isCorrect": true
+        },
+        {
+          "option": "Super Mario",
+          "isCorrect": false
+        },
+        {
+          "option": "Sonic The Hedgehog",
+          "isCorrect": false
+        },
+        {
+          "option": "Rayman",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik játék nem volt hírhedt az erőszakos tartalomról?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Banjo-Kazooie",
+          "isCorrect": true
+        },
+        {
+          "option": "Doom",
+          "isCorrect": false
+        },
+        {
+          "option": "Mortal Kombat",
+          "isCorrect": false
+        },
+        {
+          "option": "Manhunt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik amerikai államban játszódik a GTA: San Andreas?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Kalifornia",
+          "isCorrect": true
+        },
+        {
+          "option": "Washington",
+          "isCorrect": false
+        },
+        {
+          "option": "Alaszka",
+          "isCorrect": false
+        },
+        {
+          "option": "Ohio",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen típusú karakter Dima a Rogue Company nevű játékban?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Breacher",
+          "isCorrect": true
+        },
+        {
+          "option": "Duelist",
+          "isCorrect": false
+        },
+        {
+          "option": "Support",
+          "isCorrect": false
+        },
+        {
+          "option": "Defender",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A Minecraftban milyen alapanyagok szükségesek egy erjesztett pókszem elkészítéséhez?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "1 pókszem, 1 barna gomba, 1 cukor",
+          "isCorrect": true
+        },
+        {
+          "option": "1 pókszem, 1 piros gomba, 1 búza",
+          "isCorrect": false
+        },
+        {
+          "option": "1 pókszem, 1 akármilyen gomba, 1 cukor",
+          "isCorrect": false
+        },
+        {
+          "option": "1 pókszem, 2 barna gomba, 1 tojás",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik játék alapján készült A Kaptár című film?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Resident Evil",
+          "isCorrect": true
+        },
+        {
+          "option": "Metal Gear Solid",
+          "isCorrect": false
+        },
+        {
+          "option": "Ghost of Tsushima: Legends",
+          "isCorrect": false
+        },
+        {
+          "option": "Silent Hill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik szereplő nem tűnik fel a The Last of Us játékokban?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Chloe Price",
+          "isCorrect": true
+        },
+        {
+          "option": "Joel Miller",
+          "isCorrect": false
+        },
+        {
+          "option": "Ellie Williams",
+          "isCorrect": false
+        },
+        {
+          "option": "Manny Alvarez",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik népszerű, lengyel fantasy alapján készült játék?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "The Witcher",
+          "isCorrect": true
+        },
+        {
+          "option": "The Elder Scrolls",
+          "isCorrect": false
+        },
+        {
+          "option": "A Gyűrűk Ura",
+          "isCorrect": false
+        },
+        {
+          "option": "Bloodborne",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik egy híres kalózos játék neve?",
+      "categoryId": 2,
+      "level": 2,
+      "options": [
+        {
+          "option": "Sea of Thieves",
+          "isCorrect": true
+        },
+        {
+          "option": "Islands of Thieves",
+          "isCorrect": false
+        },
+        {
+          "option": "Sea of Rats",
+          "isCorrect": false
+        },
+        {
+          "option": "Pirate's Ocean",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hogy hívják Sonic riválisát?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Knuckles",
+          "isCorrect": true
+        },
+        {
+          "option": "Tails",
+          "isCorrect": false
+        },
+        {
+          "option": "Foxy",
+          "isCorrect": false
+        },
+        {
+          "option": "Ray",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi 1 perc valós idő a Minecraftban?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "1 óra 12 perc",
+          "isCorrect": true
+        },
+        {
+          "option": "2,25 óra",
+          "isCorrect": false
+        },
+        {
+          "option": "1 óra",
+          "isCorrect": false
+        },
+        {
+          "option": "35 perc",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik volt az első rezgő kontroller?",
+      "categoryId": 2,
+      "level": 3,
+      "options": [
+        {
+          "option": "Nintendo 64 Rumble Pak kontroller",
+          "isCorrect": true
+        },
+        {
+          "option": "Sega Dreamcast kontroller",
+          "isCorrect": false
+        },
+        {
+          "option": "Sony Dualshock kontroller",
+          "isCorrect": false
+        },
+        {
+          "option": "Nintendo GameCube kontroller",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a címe annak a Podcastnek, amit Ryan hallgat a The Quarry című játékban?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Bizarre yet Bonafide",
+          "isCorrect": true
+        },
+        {
+          "option": "Ghost of Hackett's Quarry",
+          "isCorrect": false
+        },
+        {
+          "option": "Myths of the Woods",
+          "isCorrect": false
+        },
+        {
+          "option": "Cringe Camp",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Miért ijesztgette Josh a barátait az Until Dawn című játékban?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Azért, hogy bosszút álljon a testvéreiért.",
+          "isCorrect": true
+        },
+        {
+          "option": "Azért, mert arra kényszerítették.",
+          "isCorrect": false
+        },
+        {
+          "option": "Azért, hogy lejárassa őket.",
+          "isCorrect": false
+        },
+        {
+          "option": "Azért, mert szerette volna megölni őket.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik volt az első videojáték, amit a világűrben is játszottak?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Tetris",
+          "isCorrect": true
+        },
+        {
+          "option": "Flappy Bird",
+          "isCorrect": false
+        },
+        {
+          "option": "Pac-Man",
+          "isCorrect": false
+        },
+        {
+          "option": "Galaga",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik volt a legelső videojáték?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Tennis for Two",
+          "isCorrect": true
+        },
+        {
+          "option": "Pong",
+          "isCorrect": false
+        },
+        {
+          "option": "Pac-Man",
+          "isCorrect": false
+        },
+        {
+          "option": "Pitfall",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik játék látható a képen?",
+      "image": "https://static.muve.pl/uploads/product-gallery/0043/8112/far-cry-3-deluxe-bundle-dlc-pc-pl-digital-3-1.jpg",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Far Cry 3",
+          "isCorrect": true
+        },
+        {
+          "option": "Days Gone",
+          "isCorrect": false
+        },
+        {
+          "option": "Red Dead Redemption 2",
+          "isCorrect": false
+        },
+        {
+          "option": "Crysis",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legtöbbet eladott videojáték konzol az alábbiak közül?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "PS2",
+          "isCorrect": true
+        },
+        {
+          "option": "Nintendo DS",
+          "isCorrect": false
+        },
+        {
+          "option": "Xbox 360",
+          "isCorrect": false
+        },
+        {
+          "option": "Game Boy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hol található meg az első boss az Elden Ringben?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Leyndell",
+          "isCorrect": true
+        },
+        {
+          "option": "Caelid",
+          "isCorrect": false
+        },
+        {
+          "option": "Limgrave",
+          "isCorrect": false
+        },
+        {
+          "option": "Altus Plateau",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik FIFA játék jelent meg először magyar szinkronnal?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "FIFA 07",
+          "isCorrect": true
+        },
+        {
+          "option": "FIFA 04",
+          "isCorrect": false
+        },
+        {
+          "option": "FIFA 09",
+          "isCorrect": false
+        },
+        {
+          "option": "FIFA 10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik játék térképe a legnagyobb az alábbiak közül?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "AC Odyssey",
+          "isCorrect": true
+        },
+        {
+          "option": "AC Origins",
+          "isCorrect": false
+        },
+        {
+          "option": "Elden Rings",
+          "isCorrect": false
+        },
+        {
+          "option": "The Witcher 3: Wild Hunt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik videójáték sorozat tartalmazza az úgynevezett 'Multiverse of Madness' nevű eseménysorozatot?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Mortal Kombat",
+          "isCorrect": true
+        },
+        {
+          "option": "The Elder Scrolls",
+          "isCorrect": false
+        },
+        {
+          "option": "Bioshock",
+          "isCorrect": false
+        },
+        {
+          "option": "Ratchet & Clank",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a Silent Hill 2 főszereplőjének, James Sunderlandnek a különleges fegyvere, amit csak egy bizonyos feltétel teljesítése után szerezhet meg?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Páncélozott láncfűrész",
+          "isCorrect": true
+        },
+        {
+          "option": "Aranypiramiskard",
+          "isCorrect": false
+        },
+        {
+          "option": "Lángszóró",
+          "isCorrect": false
+        },
+        {
+          "option": "Ezüst pisztoly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik franchise büszkélkedhet a legtöbb eladott játékkal az alábbiak közül?",
+      "categoryId": 2,
+      "level": 4,
+      "options": [
+        {
+          "option": "Call of Duty",
+          "isCorrect": true
+        },
+        {
+          "option": "FIFA",
+          "isCorrect": false
+        },
+        {
+          "option": "Grand Theft Auto",
+          "isCorrect": false
+        },
+        {
+          "option": "The Sims",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik országok az alapítótagjai az Antantnak?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "Nagy-Britannia, Franciaország, Oroszország",
+          "isCorrect": true
+        },
+        {
+          "option": "Nagy-Britannia, Franciaország, Olaszország",
+          "isCorrect": false
+        },
+        {
+          "option": "Nagy-Britannia, Franciaország, Oroszország, USA",
+          "isCorrect": false
+        },
+        {
+          "option": "Nagy-Britannia, Franciaország, Olaszország, USA",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik történelmi személyt nevezték 'Kis Káplár'-nak?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "Bonaparte Napóleon",
+          "isCorrect": true
+        },
+        {
+          "option": "Fidel Castro",
+          "isCorrect": false
+        },
+        {
+          "option": "Hódító Vilmos",
+          "isCorrect": false
+        },
+        {
+          "option": "I. Mátyás király",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi volt a híres bűvész, Alfonzó polgári neve?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "Markos József",
+          "isCorrect": true
+        },
+        {
+          "option": "Id. Nádas György",
+          "isCorrect": false
+        },
+        {
+          "option": "Nádas Alfonz",
+          "isCorrect": false
+        },
+        {
+          "option": "Kovács Tamás",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Kit ábrázol az alábbi kép?",
+      "image": "https://blog.verselemzes.hu/jegyzet/wp-content/uploads/sites/2/2019/12/K%C3%B6lcsey-Ferenc_300px.jpg",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Kölcsey Ferenc",
+          "isCorrect": true
+        },
+        {
+          "option": "Erkel Ferenc",
+          "isCorrect": false
+        },
+        {
+          "option": "Tamási Áron",
+          "isCorrect": false
+        },
+        {
+          "option": "Karinthy Frigyes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Kit neveztek a haza bölcsének?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Deák Ferenc",
+          "isCorrect": true
+        },
+        {
+          "option": "Széchenyi István",
+          "isCorrect": false
+        },
+        {
+          "option": "Petőfi Sándor",
+          "isCorrect": false
+        },
+        {
+          "option": "Kossuth Lajos",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az angol forradalom idején a Vasbordájúak vezetője?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "Oliver Cromwell",
+          "isCorrect": true
+        },
+        {
+          "option": "Metternich",
+          "isCorrect": false
+        },
+        {
+          "option": "Thomas Fairfax",
+          "isCorrect": false
+        },
+        {
+          "option": "Mary Boleyn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az az uralkodó, aki hajóácsnak öltözve utazott Nyugat-Európában?",
+      "categoryId": 3,
+      "level": 2,
+      "options": [
+        {
+          "option": "I. Nagy Péter",
+          "isCorrect": true
+        },
+        {
+          "option": "Mátyás király",
+          "isCorrect": false
+        },
+        {
+          "option": "Ferenc József",
+          "isCorrect": false
+        },
+        {
+          "option": "Ferenc Ferdinánd",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Kinek az uralkodása alatt zajlott a Francia forradalom?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "XVI. Lajos",
+          "isCorrect": true
+        },
+        {
+          "option": "XIV. Lajos",
+          "isCorrect": false
+        },
+        {
+          "option": "X. Lajos",
+          "isCorrect": false
+        },
+        {
+          "option": "IX. Lajos",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik találmány született az első ipari forradalom során?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "fonógép",
+          "isCorrect": true
+        },
+        {
+          "option": "autó",
+          "isCorrect": false
+        },
+        {
+          "option": "kerékpár",
+          "isCorrect": false
+        },
+        {
+          "option": "telefon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik találmány született az első ipari forradalom során?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "fonógép",
+          "isCorrect": true
+        },
+        {
+          "option": "autó",
+          "isCorrect": false
+        },
+        {
+          "option": "kerékpár",
+          "isCorrect": false
+        },
+        {
+          "option": "telefon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor alapították a Magyar Tudományos Akadémiát?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "1825",
+          "isCorrect": true
+        },
+        {
+          "option": "1803",
+          "isCorrect": false
+        },
+        {
+          "option": "1910",
+          "isCorrect": false
+        },
+        {
+          "option": "1844",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor kezdődött az első világháború?",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "1914. július 28",
+          "isCorrect": true
+        },
+        {
+          "option": "1914. június 26",
+          "isCorrect": false
+        },
+        {
+          "option": "1914. augusztus 8",
+          "isCorrect": false
+        },
+        {
+          "option": "1914. július 15",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki mondta ezt a mondatot? 'Vannak ellenségeid? Jó. Ez azt jelenti, hogy valamikor valamit felépítettél már az életben.' ",
+      "categoryId": 3,
+      "level": 3,
+      "options": [
+        {
+          "option": "Winston Churchill",
+          "isCorrect": true
+        },
+        {
+          "option": "Henry Ford",
+          "isCorrect": false
+        },
+        {
+          "option": "John F. Kennedy",
+          "isCorrect": false
+        },
+        {
+          "option": "Bonaparte Napóleon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki mondta? 'Mi a történelem? A múlt visszhangja a jövőben. A jövő tükröződése a múlton.' ",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Victor Hugo",
+          "isCorrect": true
+        },
+        {
+          "option": "Móricz Zsigmond",
+          "isCorrect": false
+        },
+        {
+          "option": "Arthur Miller",
+          "isCorrect": false
+        },
+        {
+          "option": "Bob Marley",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben alakult meg a Német Birodalom?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "1871",
+          "isCorrect": true
+        },
+        {
+          "option": "1844",
+          "isCorrect": false
+        },
+        {
+          "option": "1918",
+          "isCorrect": false
+        },
+        {
+          "option": "1933",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az első nő, aki Nobel-díjat nyert?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Marie Curie",
+          "isCorrect": true
+        },
+        {
+          "option": "Emmeline Parkhurst",
+          "isCorrect": false
+        },
+        {
+          "option": "Rosalind Franklin",
+          "isCorrect": false
+        },
+        {
+          "option": "Jane Addams",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik csata volt a fordulópont a 2. világháborúban a Csendes-óceáni hadszíntéren?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Midway",
+          "isCorrect": true
+        },
+        {
+          "option": "El Alamein",
+          "isCorrect": false
+        },
+        {
+          "option": "Stalingrad",
+          "isCorrect": false
+        },
+        {
+          "option": "Kurszk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ország volt az első, amely hivatalosan bevezette a női választójogot?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Új-Zéland",
+          "isCorrect": true
+        },
+        {
+          "option": "Egyesült Államok",
+          "isCorrect": false
+        },
+        {
+          "option": "Finnország",
+          "isCorrect": false
+        },
+        {
+          "option": "Franciaország",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik ember volt azon az állásponton, hogy ő előbb mentene meg egy kutyát, mint egy zsidót?",
+      "categoryId": 3,
+      "level": 1,
+      "options": [
+        {
+          "option": "Adolf Hitler",
+          "isCorrect": true
+        },
+        {
+          "option": "Joszif Sztálin",
+          "isCorrect": false
+        },
+        {
+          "option": "Benito Mussolini",
+          "isCorrect": false
+        },
+        {
+          "option": "Sigemicu Mamoru",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mikor adták ki a magyar nemesség jogait először rögzítő okiratot?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "1222",
+          "isCorrect": true
+        },
+        {
+          "option": "1000",
+          "isCorrect": false
+        },
+        {
+          "option": "1514",
+          "isCorrect": false
+        },
+        {
+          "option": "1301",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Milyen rokoni kapcsolatban állt egymással Mária Terézia magyar királynő és Marie Antoinette, a francia királyné?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Semmilyenben.",
+          "isCorrect": true
+        },
+        {
+          "option": "Sógornők voltak.",
+          "isCorrect": false
+        },
+        {
+          "option": "Mária Terézia anyja Marie Antoinette volt.",
+          "isCorrect": false
+        },
+        {
+          "option": "Távoli unokatestvérek voltak.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki nem volt Mátyás király felesége az alábbiak közül?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "Szilágyi Erzsébet",
+          "isCorrect": true
+        },
+        {
+          "option": "Podjebrád Katalin",
+          "isCorrect": false
+        },
+        {
+          "option": "Aragóniai Beatrix",
+          "isCorrect": false
+        },
+        {
+          "option": "Egyik sem",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt a brit birodalom utolsó uralkodója, aki a 'Birodalom napjainkig' elvét képviselte?",
+      "categoryId": 3,
+      "level": 4,
+      "options": [
+        {
+          "option": "III. György",
+          "isCorrect": true
+        },
+        {
+          "option": "II. Erzsébet",
+          "isCorrect": false
+        },
+        {
+          "option": "VII. Eduárd",
+          "isCorrect": false
+        },
+        {
+          "option": "I. Vilmos",
           "isCorrect": false
         }
       ]

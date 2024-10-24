@@ -3,6 +3,7 @@ import QuestionsData from "../questions.json";
 import LevelSelector from "../Components/LevelSelector";
 import Game from "../Components/Game";
 import { FaHeart } from "react-icons/fa";
+import CategorySelector from "../Components/CategorySelector";
 export const QuizContext = createContext();
 
 function QuizProvider({ children }) {
@@ -22,12 +23,15 @@ function QuizProvider({ children }) {
     { id: 1, name: "Felezés", used: false },
     { id: 2, name: "+1 Élet", used: false },
   ]);
+  const [category, setCategory] = useState(null);
 
   const SelectQuestion = () => {
+    console.log(QuestionsData);
+
     setIsGood(null);
     var levelsQ = [];
     QuestionsData.questions.forEach((i) => {
-      if (i.level == level) levelsQ.push(i);
+      if (i.level == level && i.categoryId == category.id) levelsQ.push(i);
     });
     var rand = Math.floor(Math.random() * levelsQ.length);
     var choosed = levelsQ[rand];
@@ -41,17 +45,15 @@ function QuizProvider({ children }) {
         choosed = levelsQ[rand];
       }
     }
-    console.log(levelsQ.length);
     var options = choosed.options;
     choosed.options = RandomizeAnswers(options);
     setUsedQuestions([...usedQuestion, choosed.question]);
     setCurrentQuestion(choosed);
-    console.log(levelsQ);
   };
 
   useEffect(() => {
-    if (level != null) SelectQuestion();
-  }, level);
+    if (category != null) SelectQuestion();
+  }, category);
   useEffect(() => {
     if (currentQuestion != null) setGameState(<Game />);
   }, currentQuestion);
@@ -64,6 +66,7 @@ function QuizProvider({ children }) {
     QuestionsData["difficulty_levels"].forEach((i) => {
       if (i.level == level) setAnswerAvailbe(i.questions);
     });
+    setGameState(<CategorySelector />);
   };
 
   const WrongAnswer = () => {
@@ -174,6 +177,10 @@ function QuizProvider({ children }) {
     }
     return <div className="d-flex justify-content-center">{hearts}</div>;
   };
+
+  const HandleSelectCategory = (category) => {
+    setCategory(category);
+  };
   return (
     <>
       <QuizContext.Provider
@@ -194,6 +201,7 @@ function QuizProvider({ children }) {
           answerAvailable,
           helps,
           HandleHelps,
+          HandleSelectCategory,
         }}>
         {children}
       </QuizContext.Provider>
