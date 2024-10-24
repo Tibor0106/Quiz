@@ -36,14 +36,19 @@ function QuizProvider({ children }) {
     var rand = Math.floor(Math.random() * levelsQ.length);
     var choosed = levelsQ[rand];
     var ok = true;
+    let i = 0;
 
-    while (ok) {
+    while (ok && i < 50) {
       if (!usedQuestion.includes(choosed.question)) {
         ok = false;
       } else {
         rand = Math.floor(Math.random() * levelsQ.length);
         choosed = levelsQ[rand];
+        i++;
       }
+    }
+    if (i == 50) {
+      return alert("Elfogytak a kérédsek");
     }
     var options = choosed.options;
     choosed.options = RandomizeAnswers(options);
@@ -202,6 +207,7 @@ function QuizProvider({ children }) {
           helps,
           HandleHelps,
           HandleSelectCategory,
+          category,
         }}>
         {children}
       </QuizContext.Provider>
