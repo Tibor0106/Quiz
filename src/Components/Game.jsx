@@ -35,6 +35,13 @@ function Game() {
         <p className="fs-4 text-success text-center fw-bold">
           {currentQuestion.question}
         </p>
+        <div className="d-flex justify-content-center">
+          <div
+            className={`kep ${currentQuestion.image == null ? "d-none" : ""}`}
+            style={{
+              backgroundImage: `url('${currentQuestion.image}')`,
+            }}></div>
+        </div>
         <div className="mt-3">
           <div className="row">
             {currentQuestion.options.map((i) => (

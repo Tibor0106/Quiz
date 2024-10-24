@@ -51,3 +51,11 @@ body {
 .isGood {
   background-color: #15ff00 !important;
 }
+.kep {
+  width: 40vh;
+  height: 40vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
