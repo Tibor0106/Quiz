@@ -33,7 +33,7 @@
     {
       "name": "Könnyű",
       "level": 1,
-      "questions": 5
+      "questions": 6
     },
     {
       "name": "Közepes",
@@ -49,6 +49,11 @@
       "name": "Extrém",
       "level": 4,
       "questions": 10
+    },
+    {
+      "name": "Összes szint és kategória",
+      "level": 5,
+      "questions": 370
     }
   ],
   "healthByLevels": {
@@ -56,7 +61,7 @@
     "2": 3,
     "3": 2,
     "4": 2,
-    "5": 1
+    "5": 20
   },
   "questions": [
     {
@@ -7513,6 +7518,1089 @@
         },
         {
           "option": "I. Vilmos",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik a legkisebb pozitív prímszám?",
+      "categoryId": 4,
+      "level": 1,
+      "options": [
+        {
+          "option": "2",
+          "isCorrect": true
+        },
+        {
+          "option": "1",
+          "isCorrect": false
+        },
+        {
+          "option": "0",
+          "isCorrect": false
+        },
+        {
+          "option": "+(-1)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi a 16 és a 28 legnagyobb közös osztója?",
+      "categoryId": 4,
+      "level": 1,
+      "options": [
+        {
+          "option": "4",
+          "isCorrect": true
+        },
+        {
+          "option": "2",
+          "isCorrect": false
+        },
+        {
+          "option": "6",
+          "isCorrect": false
+        },
+        {
+          "option": "2,5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi az abszolútérték jele?",
+      "categoryId": 4,
+      "level": 1,
+      "options": [
+        {
+          "option": "| |",
+          "isCorrect": true
+        },
+        {
+          "option": "( )",
+          "isCorrect": false
+        },
+        {
+          "option": "[ ]",
+          "isCorrect": false
+        },
+        {
+          "option": "/ /",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi 2495 ezresekre kerekített értéke?",
+      "categoryId": 4,
+      "level": 1,
+      "options": [
+        {
+          "option": "2000",
+          "isCorrect": true
+        },
+        {
+          "option": "3000",
+          "isCorrect": false
+        },
+        {
+          "option": "2400",
+          "isCorrect": false
+        },
+        {
+          "option": "2500",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hány g 0,25 kg + 5 g?",
+      "categoryId": 4,
+      "level": 2,
+      "options": [
+        {
+          "option": "255",
+          "isCorrect": true
+        },
+        {
+          "option": "30",
+          "isCorrect": false
+        },
+        {
+          "option": "0,30",
+          "isCorrect": false
+        },
+        {
+          "option": "250",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Anikó pénzének 30%-a ugyanannyi, mint Béla pénzének egyharmad része. Melyiküknek van több pénze?",
+      "categoryId": 4,
+      "level": 2,
+      "options": [
+        {
+          "option": "Anikónak",
+          "isCorrect": true
+        },
+        {
+          "option": "Bélának",
+          "isCorrect": false
+        },
+        {
+          "option": "Ugyanannyi pénzük van",
+          "isCorrect": false
+        },
+        {
+          "option": "Mi van?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Hány perc 5/4 nap + 10 óra?",
+      "categoryId": 4,
+      "level": 2,
+      "options": [
+        {
+          "option": "2400",
+          "isCorrect": true
+        },
+        {
+          "option": "2040",
+          "isCorrect": false
+        },
+        {
+          "option": "4000",
+          "isCorrect": false
+        },
+        {
+          "option": "3200",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Anyukám 25 éves volt, amikor születtem. Én most 41 éves vagyok, anyukám 66. Ha én is ugyanolyan idős koromban szültem volna, mint anyukám, most hány éves lenne az a gyerek?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "16",
+          "isCorrect": true
+        },
+        {
+          "option": "6",
+          "isCorrect": false
+        },
+        {
+          "option": "21",
+          "isCorrect": false
+        },
+        {
+          "option": "25",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ha összeadjuk, hány napból áll január, június és augusztus, milyen számot kapunk?",
+      "categoryId": 4,
+      "level": 2,
+      "options": [
+        {
+          "option": "92",
+          "isCorrect": true
+        },
+        {
+          "option": "93",
+          "isCorrect": false
+        },
+        {
+          "option": "91",
+          "isCorrect": false
+        },
+        {
+          "option": "90",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Tavaly bruttó 400 000 Ft-ot kerestem és 20% volt az adó, így 320 000 Ft volt a nettó fizetésem. Idén már 25% az adó, de kaptam 25% béremelést. Több lesz a nettóm idén, mint tavaly volt?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "Igen, több lesz.",
+          "isCorrect": true
+        },
+        {
+          "option": "Ugyanannyi lesz.",
+          "isCorrect": false
+        },
+        {
+          "option": "Nem, nem lesz több.",
+          "isCorrect": false
+        },
+        {
+          "option": "Több lesz, de csak 50 000 Ft-tal.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mivel egyenlő az alábbi törtek szorzása? 2/6 * 9/14 = ?",
+      "categoryId": 4,
+      "level": 3,
+      "options": [
+        {
+          "option": "3/14",
+          "isCorrect": true
+        },
+        {
+          "option": "2/12",
+          "isCorrect": false
+        },
+        {
+          "option": "20%",
+          "isCorrect": false
+        },
+        {
+          "option": "0,5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi a következő tag a Fibonacci-sorozatban, ha a 10. tag 55?",
+      "categoryId": 4,
+      "level": 4,
+      "options": [
+        {
+          "option": "89",
+          "isCorrect": true
+        },
+        {
+          "option": "144",
+          "isCorrect": false
+        },
+        {
+          "option": "233",
+          "isCorrect": false
+        },
+        {
+          "option": "377",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Egy komplex szám z=3+4i. Mekkora z abszolút értéke?",
+      "categoryId": 4,
+      "level": 4,
+      "options": [
+        {
+          "option": "5",
+          "isCorrect": true
+        },
+        {
+          "option": "7",
+          "isCorrect": false
+        },
+        {
+          "option": "13",
+          "isCorrect": false
+        },
+        {
+          "option": "16",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Egy szabályos tízszög belső szögeinek összege?",
+      "categoryId": 4,
+      "level": 4,
+      "options": [
+        {
+          "option": "1440°",
+          "isCorrect": true
+        },
+        {
+          "option": "1260°",
+          "isCorrect": false
+        },
+        {
+          "option": "1620°",
+          "isCorrect": false
+        },
+        {
+          "option": "1800°",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Anita február 27-én elutazott, és majd 120 nap múlva tér haza. Melyik hónap hanyadik napján tér haza, ha szökőévről beszélünk?",
+      "categoryId": 4,
+      "level": 4,
+      "options": [
+        {
+          "option": "június 26",
+          "isCorrect": true
+        },
+        {
+          "option": "június 30",
+          "isCorrect": false
+        },
+        {
+          "option": "július 2",
+          "isCorrect": false
+        },
+        {
+          "option": "június 25",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Beni, Bella, Ámon, Janka és Lili színházba mennek. Hányféleképpen ülhetnek le egymás mellé, ha Bella mindenképp szélen szeretne ülni, és Janka és Lili nem ülhetnek egymás mellett?",
+      "categoryId": 4,
+      "level": 4,
+      "options": [
+        {
+          "option": "24 féleképp",
+          "isCorrect": true
+        },
+        {
+          "option": "12 féleképp",
+          "isCorrect": false
+        },
+        {
+          "option": "25 féleképp",
+          "isCorrect": false
+        },
+        {
+          "option": "32 féleképp",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik évben indult a The Walking Dead TV sorozat?",
+      "categoryId": 6,
+      "level": 1,
+      "options": [
+        {
+          "option": "2010",
+          "isCorrect": true
+        },
+        {
+          "option": "2012",
+          "isCorrect": false
+        },
+        {
+          "option": "2008",
+          "isCorrect": false
+        },
+        {
+          "option": "2009",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mi Leonard Hofstadter kutatási területe az Agymenőkben?",
+      "categoryId": 6,
+      "level": 1,
+      "options": [
+        {
+          "option": "Kísérleti fizika",
+          "isCorrect": true
+        },
+        {
+          "option": "Idegtudomány",
+          "isCorrect": false
+        },
+        {
+          "option": "Matematika",
+          "isCorrect": false
+        },
+        {
+          "option": "Biológia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki a képen látható karakter?",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png",
+      "categoryId": 6,
+      "level": 1,
+      "options": [
+        {
+          "option": "Walter White / Heisenberg",
+          "isCorrect": true
+        },
+        {
+          "option": "Heisenberg",
+          "isCorrect": false
+        },
+        {
+          "option": "Walter White",
+          "isCorrect": false
+        },
+        {
+          "option": "Jesse Pinkman",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mennyi 2+6, ha mindkét szám ellentettjét vesszük?",
+      "categoryId": 4,
+      "level": 1,
+      "options": [
+        {
+          "option": "-8",
+          "isCorrect": true
+        },
+        {
+          "option": "8",
+          "isCorrect": false
+        },
+        {
+          "option": "-12",
+          "isCorrect": false
+        },
+        {
+          "option": "-4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki a készítője a RWBY című animációs sorozatnak?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "Monty Oum",
+          "isCorrect": true
+        },
+        {
+          "option": "Miles Luna",
+          "isCorrect": false
+        },
+        {
+          "option": "Kerry Shawcross",
+          "isCorrect": false
+        },
+        {
+          "option": "Michael Jones",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta A kőszívű ember fiai című regényt?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "Jókai Mór",
+          "isCorrect": true
+        },
+        {
+          "option": "Kosztolányi Dezső",
+          "isCorrect": false
+        },
+        {
+          "option": "Vörösmarty Mihály",
+          "isCorrect": false
+        },
+        {
+          "option": "Arany János",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik könyvben található az a híres idézet, hogy 'Minden család boldog egyformán, de minden család a maga módján boldogtalan'?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "Anna Karenina – Lev Tolsztoj",
+          "isCorrect": true
+        },
+        {
+          "option": "Száz év magány – Gabriel Garcia Márquez",
+          "isCorrect": false
+        },
+        {
+          "option": "Üvöltő szelek – Emily Brontë",
+          "isCorrect": false
+        },
+        {
+          "option": "Jane Eyre – Charlotte Brontë",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik országban játszódik a Money Heist (La Casa de Papel) című sorozat?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "Spanyolország",
+          "isCorrect": true
+        },
+        {
+          "option": "Franciaország",
+          "isCorrect": false
+        },
+        {
+          "option": "Olaszország",
+          "isCorrect": false
+        },
+        {
+          "option": "Mexikó",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik rendező készítette a Harcosok klubja című filmet?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "David Fincher",
+          "isCorrect": true
+        },
+        {
+          "option": "Quentin Tarantino",
+          "isCorrect": false
+        },
+        {
+          "option": "Christopher Nolan",
+          "isCorrect": false
+        },
+        {
+          "option": "Martin Scorsese",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki Joker mellett a második antagonista A sötét lovag című 2008-as Batman filmben?",
+      "categoryId": 6,
+      "level": 3,
+      "options": [
+        {
+          "option": "Kétarc",
+          "isCorrect": true
+        },
+        {
+          "option": "Pingvin",
+          "isCorrect": false
+        },
+        {
+          "option": "Bane",
+          "isCorrect": false
+        },
+        {
+          "option": "Madárijesztő",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik film nyerte el az első Oscar-díjat a legjobb film kategóriában?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Wings",
+          "isCorrect": true
+        },
+        {
+          "option": "Gone with the Wind",
+          "isCorrect": false
+        },
+        {
+          "option": "Citizen Kane",
+          "isCorrect": false
+        },
+        {
+          "option": "Casablanca",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a híres *A Gyűrűk Ura* trilógiát?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "J.R.R. Tolkien",
+          "isCorrect": true
+        },
+        {
+          "option": "C.S. Lewis",
+          "isCorrect": false
+        },
+        {
+          "option": "George R.R. Martin",
+          "isCorrect": false
+        },
+        {
+          "option": "J.K. Rowling",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik sorozatban található egy közismert kávézó, a Central Perk?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Jóbarátok (Friends)",
+          "isCorrect": true
+        },
+        {
+          "option": "How I Met Your Mother",
+          "isCorrect": false
+        },
+        {
+          "option": "The Big Bang Theory",
+          "isCorrect": false
+        },
+        {
+          "option": "Szex és New York",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki írta a *Harry Potter* könyvsorozatot?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "J.K. Rowling",
+          "isCorrect": true
+        },
+        {
+          "option": "Suzanne Collins",
+          "isCorrect": false
+        },
+        {
+          "option": "Rick Riordan",
+          "isCorrect": false
+        },
+        {
+          "option": "Stephen King",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres sorozat játszódik a fiktív Westeros királyságában?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Trónok harca",
+          "isCorrect": true
+        },
+        {
+          "option": "Vikingek",
+          "isCorrect": false
+        },
+        {
+          "option": "A Tudorok",
+          "isCorrect": false
+        },
+        {
+          "option": "Arcane",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik karakter mondta el először az 'Erő legyen veled!' híres mondatot a Star Wars-filmekben?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Han Solo",
+          "isCorrect": true
+        },
+        {
+          "option": "Luke Skywalker",
+          "isCorrect": false
+        },
+        {
+          "option": "Yoda",
+          "isCorrect": false
+        },
+        {
+          "option": "Obi-Wan Kenobi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik híres író publikálta álnéven első regényét, a *The Cuckoo's Calling*-ot?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "J.K. Rowling",
+          "isCorrect": true
+        },
+        {
+          "option": "Stephen King",
+          "isCorrect": false
+        },
+        {
+          "option": "Agatha Christie",
+          "isCorrect": false
+        },
+        {
+          "option": "George R.R. Martin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik filmrendező készítette el az eredeti *Psycho* című filmet, amely úttörő lett a thriller műfajában?",
+      "categoryId": 6,
+      "level": 4,
+      "options": [
+        {
+          "option": "Alfred Hitchcock",
+          "isCorrect": true
+        },
+        {
+          "option": "Stanley Kubrick",
+          "isCorrect": false
+        },
+        {
+          "option": "Orson Welles",
+          "isCorrect": false
+        },
+        {
+          "option": "David Lean",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik költő írta a *Szeptember végén* című verset?",
+      "categoryId": 5,
+      "level": 1,
+      "options": [
+        {
+          "option": "Petőfi Sándor",
+          "isCorrect": true
+        },
+        {
+          "option": "Arany János",
+          "isCorrect": false
+        },
+        {
+          "option": "Ady Endre",
+          "isCorrect": false
+        },
+        {
+          "option": "József Attila",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mit fejez ki a kijelentő mód a magyar nyelvben?",
+      "categoryId": 5,
+      "level": 1,
+      "options": [
+        {
+          "option": "Tényszerűséget",
+          "isCorrect": true
+        },
+        {
+          "option": "Feltételességet",
+          "isCorrect": false
+        },
+        {
+          "option": "Parancsot",
+          "isCorrect": false
+        },
+        {
+          "option": "Kérdést",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik műfajba tartozik a *János vitéz*?",
+      "categoryId": 5,
+      "level": 1,
+      "options": [
+        {
+          "option": "Elbeszélő költemény",
+          "isCorrect": true
+        },
+        {
+          "option": "Regény",
+          "isCorrect": false
+        },
+        {
+          "option": "Eposz",
+          "isCorrect": false
+        },
+        {
+          "option": "Dráma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik magyar költő volt ismert *Csokonai Lili* álnéven is?",
+      "categoryId": 5,
+      "level": 3,
+      "options": [
+        {
+          "option": "Tandori Dezső",
+          "isCorrect": true
+        },
+        {
+          "option": "Radnóti Miklós",
+          "isCorrect": false
+        },
+        {
+          "option": "Kosztolányi Dezső",
+          "isCorrect": false
+        },
+        {
+          "option": "Babits Mihály",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Mit jelent a *holophrasztikus* kifejezés a nyelvészetben?",
+      "categoryId": 5,
+      "level": 3,
+      "options": [
+        {
+          "option": "Egy szóból álló, de mondat értékű kifejezés",
+          "isCorrect": true
+        },
+        {
+          "option": "Két tagból összetett szavak összessége",
+          "isCorrect": false
+        },
+        {
+          "option": "Egy fogalom különböző jelentéseinek összekapcsolása",
+          "isCorrect": false
+        },
+        {
+          "option": "Szótagolás nélküli kiejtési forma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik nyelvtani jelenség jellemző a magyarra a 'házban' szóban?",
+      "categoryId": 5,
+      "level": 3,
+      "options": [
+        {
+          "option": "Alanyeset",
+          "isCorrect": false
+        },
+        {
+          "option": "Tárgyeset",
+          "isCorrect": false
+        },
+        {
+          "option": "Határozóragos eset",
+          "isCorrect": true
+        },
+        {
+          "option": "Birtokos eset",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik magyar költő fordította le először Shakespeare összes szonettjét magyar nyelvre?",
+      "categoryId": 5,
+      "level": 3,
+      "options": [
+        {
+          "option": "Szabó Lőrinc",
+          "isCorrect": true
+        },
+        {
+          "option": "Kosztolányi Dezső",
+          "isCorrect": false
+        },
+        {
+          "option": "Arany János",
+          "isCorrect": false
+        },
+        {
+          "option": "Babits Mihály",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik művel kapcsolatosan használták először az 'erénycsősz' kifejezést a magyar irodalomban?",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "Kazinczy Ferenc – Fogságom naplója",
+          "isCorrect": true
+        },
+        {
+          "option": "Vörösmarty Mihály – Csongor és Tünde",
+          "isCorrect": false
+        },
+        {
+          "option": "Csokonai Vitéz Mihály – Dorottya",
+          "isCorrect": false
+        },
+        {
+          "option": "Madách Imre – Az ember tragédiája",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Ki volt az első magyar író, aki megkapta a Kossuth-díjat?",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "Móricz Zsigmond",
+          "isCorrect": true
+        },
+        {
+          "option": "Kosztolányi Dezső",
+          "isCorrect": false
+        },
+        {
+          "option": "Babits Mihály",
+          "isCorrect": false
+        },
+        {
+          "option": "Illyés Gyula",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A nyelvtudományban mit nevezünk 'grammatikalizációnak'?",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "Amikor egy lexikai elem grammatikai szerepet vesz fel",
+          "isCorrect": true
+        },
+        {
+          "option": "Amikor egy mondat szerkezetileg bővül",
+          "isCorrect": false
+        },
+        {
+          "option": "Amikor egy nyelv eltér egy másiktól",
+          "isCorrect": false
+        },
+        {
+          "option": "Amikor egy lexikai elem helyesírása megváltozik",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik nyelvi sajátosság jellemző a magyar irodalmi klasszicizmusra?",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "Archaizmusok és latin szófordulatok használata",
+          "isCorrect": true
+        },
+        {
+          "option": "Idegen eredetű szavak kerülése",
+          "isCorrect": false
+        },
+        {
+          "option": "Népi nyelvhasználat és közvetlen kifejezésmód",
+          "isCorrect": false
+        },
+        {
+          "option": "Metaforikus, allegorikus nyelvezet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik költő nevéhez fűződik a magyar 'nyelvújítás' mozgalom első komoly kritikai vitája?",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "Kölcsey Ferenc",
+          "isCorrect": true
+        },
+        {
+          "option": "Kazinczy Ferenc",
+          "isCorrect": false
+        },
+        {
+          "option": "Vörösmarty Mihály",
+          "isCorrect": false
+        },
+        {
+          "option": "Arany János",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Melyik művet írta a képen látható író?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Fekete_Istv%C3%A1n.JPG",
+      "categoryId": 5,
+      "level": 4,
+      "options": [
+        {
+          "option": "Mindhármat ő írta",
+          "isCorrect": true
+        },
+        {
+          "option": "Bogáncs",
+          "isCorrect": false
+        },
+        {
+          "option": "Tüskevár",
+          "isCorrect": false
+        },
+        {
+          "option": "Vuk",
           "isCorrect": false
         }
       ]

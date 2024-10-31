@@ -1,9 +1,11 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useRef, useState } from "react";
 import QuestionsData from "../questions.json";
 import LevelSelector from "../Components/LevelSelector";
 import Game from "../Components/Game";
 import { FaHeart } from "react-icons/fa";
 import CategorySelector from "../Components/CategorySelector";
+import GameOver from "../Components/GameOver";
+import Win from "../Components/Win";
 export const QuizContext = createContext();
 
 function QuizProvider({ children }) {
@@ -23,22 +25,29 @@ function QuizProvider({ children }) {
     { id: 1, name: "Felezés", used: false },
     { id: 2, name: "+1 Élet", used: false },
   ]);
+  const disabledClick = useRef(false);
   const [category, setCategory] = useState(null);
-
+  const [animationKey, setAnimationKey] = useState(Math.random() * 100);
   const SelectQuestion = () => {
-    console.log(QuestionsData);
-
+    disabledClick.current = false;
+    setAnimationKey(Math.random() * 100);
     setIsGood(null);
     var levelsQ = [];
-    QuestionsData.questions.forEach((i) => {
-      if (i.level == level && i.categoryId == category.id) levelsQ.push(i);
-    });
+    if (level != 5) {
+      QuestionsData.questions.forEach((i) => {
+        if (i.level == level && i.categoryId == category.id) levelsQ.push(i);
+      });
+    } else {
+      levelsQ = QuestionsData.questions;
+    }
+
+    console.log(level);
     var rand = Math.floor(Math.random() * levelsQ.length);
     var choosed = levelsQ[rand];
     var ok = true;
     let i = 0;
 
-    while (ok && i < 50) {
+    while (ok && i < 371) {
       if (!usedQuestion.includes(choosed.question)) {
         ok = false;
       } else {
@@ -62,6 +71,9 @@ function QuizProvider({ children }) {
   useEffect(() => {
     if (currentQuestion != null) setGameState(<Game />);
   }, currentQuestion);
+  useEffect(() => {
+    if (level == 5) SelectQuestion();
+  }, [level]);
 
   const HandleChoose = (choosen) => {};
   const HandleSelectLevel = (level) => {
@@ -71,7 +83,9 @@ function QuizProvider({ children }) {
     QuestionsData["difficulty_levels"].forEach((i) => {
       if (i.level == level) setAnswerAvailbe(i.questions);
     });
-    setGameState(<CategorySelector />);
+    if (level == 5) {
+      setGameState(<Game />);
+    } else setGameState(<CategorySelector />);
   };
 
   const WrongAnswer = () => {
@@ -151,24 +165,24 @@ function QuizProvider({ children }) {
     setHelps(i);
   };
   const selectAnswer = (ans) => {
-    if (answeredQuestions == answerAvailable) {
-      return setGameState(<>Nyertél</>);
-    }
+    if (disabledClick.current) return;
     setAnsweredQuestions(answeredQuestions + 1);
+
+    disabledClick.current = true;
     if (!ans.isCorrect) WrongAnswer();
     else {
       setsolvedQuestions(solvedQuestions + 1);
       setIsGood(true);
       setTimeout(() => SelectQuestion(), 1000);
     }
+    if (answeredQuestions == answerAvailable - 1) {
+      setGameState(<Win />);
+      return;
+    }
   };
 
   const HandleGameOver = () => {
-    setGameState(
-      <>
-        <div>GAME OVER</div>
-      </>
-    );
+    setGameState(<GameOver />);
   };
 
   const getHearts = () => {
@@ -176,7 +190,7 @@ function QuizProvider({ children }) {
     for (var i = 0; i < AvailableHealths; i++) {
       hearts.push(
         <div>
-          <FaHeart className="text-danger mx-1" size={50} />
+          <FaHeart className="text-danger mx-1 hearts" size={50} />
         </div>
       );
     }
@@ -208,6 +222,7 @@ function QuizProvider({ children }) {
           HandleHelps,
           HandleSelectCategory,
           category,
+          animationKey,
         }}>
         {children}
       </QuizContext.Provider>

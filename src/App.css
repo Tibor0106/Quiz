@@ -1,8 +1,12 @@
 body {
-  background-image: url("https://images.ctfassets.net/wt70guc1rpin/wp-media-54571/d4e7cee9fec8bf6b4c7d7fbaf46e5ebd/HEAD-HEAD-Your_One-Click_Guide_to_Online_Quiz_Design-_The_Easiest_Way_to_Catch_New_Leads-Hero_no_text_international-1200x630.png");
+  background: rgb(106, 30, 122);
+  background: linear-gradient(
+    270deg,
+    rgba(106, 30, 122, 0.5746673669467788) 0%,
+    rgba(74, 217, 255, 0.5830707282913166) 100%
+  );
 }
 .container {
-  margin-top: 10%;
   background: #ffffffed;
   padding: 50px;
   border-radius: 10px;
@@ -16,6 +20,11 @@ body {
   background: #4300d4;
   color: #fff;
   border-radius: 5px;
+  transition: ALL 0.4;
+}
+
+.buttons:hover {
+  background: #3300a0;
 }
 
 .answerGood,
@@ -58,4 +67,21 @@ body {
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.abc {
+  background: rgba(240, 46, 169, 0.799);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.abc-2 {
+  background: rgba(240, 46, 169, 0.799);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
 }
