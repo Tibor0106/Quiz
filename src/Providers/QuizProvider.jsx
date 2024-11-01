@@ -33,15 +33,24 @@ function QuizProvider({ children }) {
     setAnimationKey(Math.random() * 100);
     setIsGood(null);
     var levelsQ = [];
-    if (level != 5) {
+
+    if (category != null && category.id == 8) {
       QuestionsData.questions.forEach((i) => {
-        if (i.level == level && i.categoryId == category.id) levelsQ.push(i);
+        if (i.level == level) levelsQ.push(i);
       });
+      setAnswerAvailbe(levelsQ.length - 1);
+      setAvailableHealths(levelsQ.length * 0.1);
+      setHealth(levelsQ.length * 0.1);
     } else {
-      levelsQ = QuestionsData.questions;
+      if (level != 5) {
+        QuestionsData.questions.forEach((i) => {
+          if (i.level == level && i.categoryId == category.id) levelsQ.push(i);
+        });
+      } else {
+        levelsQ = QuestionsData.questions;
+      }
     }
 
-    console.log(level);
     var rand = Math.floor(Math.random() * levelsQ.length);
     var choosed = levelsQ[rand];
     var ok = true;
@@ -137,7 +146,6 @@ function QuizProvider({ children }) {
           nem.push(i);
         }
       });
-      console.log(nem);
       var curr = currentQuestion;
       curr.options = [];
       curr.options.push(a[0]);
